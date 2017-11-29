@@ -1,0 +1,57 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'ptc/css/bootstrap-4.0.0-beta.2/dist/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'ptc/css/ptc.css' %}">
+  </head>
+  <body>
+<div class="row">
+    <div class="col-2 col-sm-4"></div>
+    <div class="col-8 col-sm-4 border rounded login-form bg-info">
+      <form method="post" action="{% url 'valusu' %}">
+          {% csrf_token %}
+        <div class="form-group text-center">
+          <img src="{% static 'ptc/img/open-iconic-master/svg/compass.svg' %}" width="150" height="150" class="rounded-circle bg-light image-login" alt="Usuario">
+        </div>
+        <div class="input-group" style="padding: 5px;">
+            <span class="input-group-addon" id="sizing-addon1">
+                <img src="{% static 'ptc/img/open-iconic-master/png/person-2x.png' %}" class="rounded float-left" alt="Usuario">
+            </span>
+            <input type="text" class="form-control" placeholder="Usuario" aria-label="Username" id="usu" name="usu" required>
+        </div>
+        <div class="input-group" style="padding: 5px;">
+          <span class="input-group-addon" id="sizing-addon2">
+              <img src="{% static 'ptc/img/open-iconic-master/png/pencil-2x.png' %}" class="rounded float-left" alt="Usuario">
+          </span>
+          <input type="password" class="form-control" id="passW" name="passW" placeholder="Password" required>
+        </div>
+        <div class="input-group" style="padding: 5px;">
+            <button type="submit" class="btn btn-dark">Sign in</button>
+        </div>
+          {% if mensaje %}
+          <div class="alert alert-danger">{{mensaje}}</div>
+          {% endif%}
+      </form>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">New around here? Sign up</a>
+      <a class="dropdown-item" href="#">Forgot password?</a>
+    </div>
+    <div class="col-2 col-sm-4 "></div>
+</div> <!-- Fin contenendor -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="{% static 'ptc/js/jquery-ui-1.12.1.custom/external/jquery/jquery.js' %}"></script>
+    <script src="{% static 'ptc/js/jquery-ui-1.12.1.custom/jquery-ui.js' %}"></script>
+    <script src="{% static 'ptc/js/popper.js-1.12.5/dist/umd/popper.min.js' %}"></script>
+    <script src="{% static 'ptc/css/bootstrap-4.0.0-beta.2/dist/js/bootstrap.min.js' %}"></script>
+  </body>
+</html>
