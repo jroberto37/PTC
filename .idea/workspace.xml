@@ -2,834 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a17d04f3-2983-4564-b632-2485bbb6b79c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/brand/bootstrap-social-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/brand/bootstrap-social.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/img/bootstrap-stack.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/img/bootstrap-themes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/img/favicons/android-chrome-192x192.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/img/favicons/android-chrome-512x512.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/img/favicons/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/img/favicons/favicon-16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/img/favicons/favicon-32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/img/favicons/mstile-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/img/favicons/mstile-150x150.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/img/favicons/mstile-310x150.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/img/favicons/mstile-310x310.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/img/favicons/mstile-70x70.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/build/gcp-key.json.enc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/screenshots/album.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/screenshots/blog.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/screenshots/carousel.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/screenshots/cover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/screenshots/dashboard.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/screenshots/grid.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/screenshots/jumbotron-narrow.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/screenshots/jumbotron.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/screenshots/justified-nav.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/screenshots/navbar-bottom.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/screenshots/navbar-fixed.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/screenshots/navbar-static.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/screenshots/navbar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/screenshots/offcanvas.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/screenshots/sign-in.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/screenshots/starter-template.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/screenshots/sticky-footer-navbar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/screenshots/sticky-footer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/logo_udg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/audio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/badge.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/ban-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/ban-3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/ban-4x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/ban-6x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/ban-8x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/ban.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/basket.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/beaker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/bell.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/bold.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/bolt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/box-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/box-3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/box-4x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/box-6x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/box-8x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/box.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/brush.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/bug-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/bug-3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/bug-4x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/bug-6x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/bug-8x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/bug.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/cart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/chat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/check.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/clock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/cloud.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/cloudy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/code.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/cog-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/cog-3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/cog-4x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/cog-6x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/cog-8x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/cog.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/crop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/dial.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/dollar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/eject.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/euro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/eye-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/eye-3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/eye-4x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/eye-6x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/eye-8x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/eye.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/file.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/fire.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/flag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/flash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/folder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/fork.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/globe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/graph.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/header.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/heart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/inbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/info.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/italic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/key-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/key-3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/key-4x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/key-6x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/key-8x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/key.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/laptop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/layers.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/list.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/loop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/map-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/map-3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/map-4x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/map-8x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/map.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/minus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/moon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/move.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/pencil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/people.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/person.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/phone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/pin-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/pin-3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/pin-4x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/pin-6x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/pin-8x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/pin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/print.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/pulse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/rain.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/random.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/reload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/rss-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/rss-3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/rss-4x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/rss-6x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/rss-8x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/rss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/script.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/share.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/shield.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/signal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/star.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/sun-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/sun-3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/sun-4x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/sun-6x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/sun-8x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/sun.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/tag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/tags.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/task.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/text.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/timer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/trash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/video.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/wifi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/x-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/x-3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/x-4x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/x-6x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/x-8x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/img/open-iconic-master/png/yen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/jquery-ui-1.12.1.custom/images/ui-icons_444444_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/jquery-ui-1.12.1.custom/images/ui-icons_555555_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/jquery-ui-1.12.1.custom/images/ui-icons_777620_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/jquery-ui-1.12.1.custom/images/ui-icons_777777_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/jquery-ui-1.12.1.custom/images/ui-icons_cc0000_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/jquery-ui-1.12.1.custom/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/favicon-16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/favicon-32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/favicon-96x96.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/images/banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/images/banner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/images/pic01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/images/pic02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/images/pic03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/images/pic04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/images/pic05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/popperjs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/miclass/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/miclass/validacion.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/.babelrc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/.eslintignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/.github/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/.github/ISSUE_TEMPLATE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/.hound.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/.houndignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/CNAME" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/Gemfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/Gemfile.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_config.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_data/breakpoints.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_data/browser-bugs.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_data/browser-features.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_data/colors.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_data/core-team.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_data/grays.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_data/nav.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_data/showcase.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_data/theme-colors.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_data/translations.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_includes/ads.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_includes/callout-danger-async-methods.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_includes/callout-warning-color-assistive-technologies.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_includes/docs-navbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_includes/docs-sidebar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_includes/favicons.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_includes/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_includes/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_includes/icons/bootstrap.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_includes/icons/download.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_includes/icons/github.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_includes/icons/import.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_includes/icons/lightning.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_includes/icons/menu.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_includes/icons/slack.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_includes/icons/twitter.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_includes/scripts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_includes/social.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_layouts/default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_layouts/docs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_layouts/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_layouts/redirect.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_layouts/simple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_plugins/bugify.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_plugins/callout.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_plugins/example.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/_plugins/markdown-block.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/brand/bootstrap-outline.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/brand/bootstrap-punchout.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/brand/bootstrap-solid.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/css/docs.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/css/docs.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/img/favicons/browserconfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/img/favicons/manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/img/favicons/safari-pinned-tab.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/js/docs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/js/ie-emulation-modes-warning.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/js/ie10-viewport-bug-workaround.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/js/src/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/js/src/pwa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/js/vendor/anchor.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/js/vendor/clipboard.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/js/vendor/holder.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/js/vendor/jquery-slim.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/js/vendor/popper.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_ads.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_algolia.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_anchor.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_brand.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_browser-bugs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_callouts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_clipboard-js.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_colors.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_component-examples.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_content.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_examples.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_featured-sites.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_footer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_masthead.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_nav.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_page-header.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_responsive-tests.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_sidebar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_skiplink.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_syntax.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_team.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/assets/scss/docs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/build/.htmllintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/build/.stylelintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/build/change-version.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/build/htmllint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/build/lint-vars.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/build/postcss.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/build/rollup.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/build/sauce_browsers.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/build/saucelabs-unit-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/build/ship.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/build/upload-preview.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/build/workbox.config.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/build/workbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/dist/css/bootstrap-grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/dist/css/bootstrap-grid.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/dist/css/bootstrap-grid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/dist/css/bootstrap-grid.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/dist/css/bootstrap-reboot.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/dist/css/bootstrap-reboot.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/dist/css/bootstrap-reboot.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/dist/css/bootstrap-reboot.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/dist/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/dist/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/dist/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/dist/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/dist/js/bootstrap.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/dist/js/bootstrap.bundle.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/dist/js/bootstrap.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/dist/js/bootstrap.bundle.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/dist/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/dist/js/bootstrap.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/dist/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/dist/js/bootstrap.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/about/brand.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/about/history.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/about/license.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/about/team.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/about/translations.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/browser-bugs.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/components/alerts.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/components/badge.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/components/breadcrumb.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/components/button-group.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/components/buttons.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/components/card.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/components/carousel.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/components/collapse.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/components/dropdowns.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/components/forms.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/components/input-group.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/components/jumbotron.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/components/list-group.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/components/modal.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/components/navbar.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/components/navs.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/components/pagination.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/components/popovers.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/components/progress.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/components/scrollspy.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/components/tooltips.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/content/code.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/content/figures.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/content/images.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/content/reboot.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/content/tables.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/content/typography.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/.stylelintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/album/album.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/album/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/blog/blog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/blog/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/carousel/carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/carousel/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/cover/cover.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/cover/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/dashboard/dashboard.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/dashboard/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/grid/grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/grid/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/jumbotron/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/jumbotron/jumbotron.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/justified-nav/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/justified-nav/justified-nav.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/narrow-jumbotron/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/narrow-jumbotron/narrow-jumbotron.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/navbar-bottom/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/navbar-top-fixed/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/navbar-top-fixed/navbar-top-fixed.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/navbar-top/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/navbar-top/navbar-top.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/navbars/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/navbars/navbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/offcanvas/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/offcanvas/offcanvas.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/offcanvas/offcanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/signin/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/signin/signin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/starter-template/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/starter-template/starter-template.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/sticky-footer-navbar/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/sticky-footer-navbar/sticky-footer-navbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/sticky-footer/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/sticky-footer/sticky-footer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/tooltip-viewport/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/tooltip-viewport/tooltip-viewport.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/examples/tooltip-viewport/tooltip-viewport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/extend/approach.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/extend/icons.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/extend/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/getting-started/accessibility.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/getting-started/best-practices.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/getting-started/browsers-devices.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/getting-started/build-tools.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/getting-started/contents.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/getting-started/download.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/getting-started/introduction.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/getting-started/javascript.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/getting-started/theming.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/getting-started/webpack.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/layout/grid.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/layout/media-object.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/layout/overview.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/layout/utilities-for-layout.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/migration.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/utilities/borders.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/utilities/clearfix.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/utilities/close-icon.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/utilities/colors.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/utilities/display.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/utilities/embed.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/utilities/flex.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/utilities/float.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/utilities/image-replacement.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/utilities/position.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/utilities/screenreaders.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/utilities/sizing.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/utilities/spacing.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/utilities/text.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/utilities/vertical-align.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/docs/4.0/utilities/visibility.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/.eslintrc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/alert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/alert.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/button.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/carousel.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/collapse.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/dropdown.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/index.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/modal.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/popover.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/scrollspy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/scrollspy.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/tab.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/tooltip.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/dist/util.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/src/alert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/src/button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/src/carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/src/collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/src/dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/src/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/src/modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/src/popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/src/scrollspy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/src/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/src/tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/src/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/.eslintrc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/unit/alert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/unit/button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/unit/carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/unit/collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/unit/dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/unit/modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/unit/popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/unit/scrollspy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/unit/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/unit/tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/vendor/qunit.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/vendor/qunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/visual/alert.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/visual/button.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/visual/carousel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/visual/collapse.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/visual/dropdown.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/visual/modal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/visual/popover.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/visual/scrollspy.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/visual/tab.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/js/tests/visual/tooltip.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/nuget/MyGet.ps1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/nuget/bootstrap.nuspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/nuget/bootstrap.sass.nuspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/package-lock.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/sache.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_alert.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_breadcrumb.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_button-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_card.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_carousel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_close.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_code.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_custom-forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_dropdown.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_functions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_images.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_input-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_jumbotron.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_list-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_modal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_nav.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_navbar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_popover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_print.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_progress.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_reboot.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_root.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_tables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_tooltip.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_transitions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_type.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/bootstrap-grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/bootstrap-reboot.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/bootstrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_alert.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_background-variant.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_border-radius.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_box-shadow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_breakpoints.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_caret.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_float.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_gradients.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_grid-framework.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_hover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_list-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_lists.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_nav-divider.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_navbar-align.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_reset-text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_resize.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_screen-reader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_size.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_table-row.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_text-emphasis.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_text-hide.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_text-truncate.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_transition.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/mixins/_visibility.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/utilities/_align.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/utilities/_background.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/utilities/_borders.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/utilities/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/utilities/_display.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/utilities/_embed.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/utilities/_flex.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/utilities/_float.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/utilities/_position.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/utilities/_screenreaders.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/utilities/_sizing.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/utilities/_spacing.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/utilities/_text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/scss/utilities/_visibility.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/bootstrap-4.0.0-beta.2/sw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/css/ptc.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/jquery-ui-1.12.1.custom/AUTHORS.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/jquery-ui-1.12.1.custom/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/jquery-ui-1.12.1.custom/external/jquery/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/jquery-ui-1.12.1.custom/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/jquery-ui-1.12.1.custom/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/jquery-ui-1.12.1.custom/jquery-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/jquery-ui-1.12.1.custom/jquery-ui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/jquery-ui-1.12.1.custom/jquery-ui.structure.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/jquery-ui-1.12.1.custom/jquery-ui.structure.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/jquery-ui-1.12.1.custom/jquery-ui.theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/jquery-ui-1.12.1.custom/jquery-ui.theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/jquery-ui-1.12.1.custom/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/page/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/.bithoundrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/.codeclimate.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/.github/ISSUE_TEMPLATE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/.github/PULL_REQUEST_TEMPLATE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/.jsdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/CODE_OF_CONDUCT.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/MENTIONS.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/CNAME" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_config.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_includes/example10-code.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_includes/example10.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_includes/example10t-code.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_includes/example10t.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_includes/example20-code.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_includes/example20.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_includes/example20t-code.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_includes/example20t.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_includes/example30-code.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_includes/example30.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_includes/example40-code.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_includes/example40.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_includes/example50-code.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_includes/example50.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_includes/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_includes/head.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_includes/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_includes/popper-documentation.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_includes/scripts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_includes/tooltip-documentation.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_layouts/default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_layouts/landing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_layouts/page-hashtag.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_layouts/page-nowrap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_layouts/page.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_sass/libs/_functions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_sass/libs/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_sass/libs/_skel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/_sass/libs/_vars.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/css/code.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/css/ie8.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/css/ie9.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/css/images/arrow.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/css/images/bars.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/css/images/close.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/css/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/css/popper.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/documentation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/feed.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/js/ie/backgroundsize.min.htc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/js/ie/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/js/ie/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/js/jquery.nanoscroller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/js/jquery.scrollex.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/js/jquery.scrolly.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/js/skel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/js/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/popper-documentation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/tooltip-documentation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/docs/tooltip-examples.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/lerna.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/babel-config/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/babel-config/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/babel-config/yarn.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/bundle/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/bundle/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/bundle/yarn.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/eslint-config-popper/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/eslint-config-popper/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/eslint-config-popper/yarn.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/.eslintignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/.eslintrc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/bower-publish.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/index.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/methods/defaults.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/methods/destroy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/methods/disableEventListeners.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/methods/enableEventListeners.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/methods/placements.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/methods/update.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/modifiers/applyStyle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/modifiers/arrow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/modifiers/computeStyle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/modifiers/flip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/modifiers/hide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/modifiers/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/modifiers/inner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/modifiers/keepTogether.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/modifiers/offset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/modifiers/preventOverflow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/modifiers/shift.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/clockwise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/computeAutoPlacement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/debounce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/find.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/findCommonOffsetParent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/findIndex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/getBordersSize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/getBoundaries.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/getBoundingClientRect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/getClientRect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/getOffsetParent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/getOffsetRect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/getOffsetRectRelativeToArbitraryNode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/getOppositePlacement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/getOppositeVariation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/getOuterSizes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/getParentNode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/getPopperOffsets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/getReferenceOffsets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/getRoot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/getScroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/getScrollParent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/getStyleComputedProperty.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/getSupportedPropertyName.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/getViewportOffsetRectRelativeToArtbitraryNode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/getWindowSizes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/includeScroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/isFixed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/isFunction.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/isIE10.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/isModifierEnabled.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/isModifierRequired.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/isNative.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/isNumeric.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/isOffsetContainer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/removeEventListeners.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/runModifiers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/setAttributes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/setStyles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/src/utils/setupEventListeners.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/.eslintrc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/functional/arrow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/functional/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/functional/flips.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/functional/lifecycle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/functional/offset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/functional/rendering.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/styles/test.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/unit/clockwise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/unit/debounce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/unit/find.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/unit/findIndex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/unit/getClientRect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/unit/getOffsetParent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/unit/getOppositePlacement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/unit/getOppositeVariation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/unit/getParentNode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/unit/getScrollParent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/unit/getStyleComputedProperty.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/unit/isFixed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/unit/isNative.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/unit/parseOffset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/utils/getRect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/utils/makePopperFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/visual/flipWithoutPreventOverflow.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/visual/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/popper/tests/visual/tooltip.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/test-utils/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/test-utils/setup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/test-utils/utils/appendNewPopper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/test-utils/utils/appendNewRef.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/test-utils/utils/customEventPolyfill.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/test-utils/utils/getRect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/test-utils/utils/isMSBrowser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/test-utils/utils/makeConnectedElement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/test-utils/utils/makeConnectedScrollElement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/test-utils/utils/makeElement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/test-utils/utils/prepend.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/test-utils/utils/simulateScroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/test-utils/utils/then.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/test-utils/yarn.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/test/.babelrc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/test/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/test/bin/karma.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/test/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/test/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/tooltip/.eslintignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/tooltip/.eslintrc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/tooltip/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/tooltip/bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/tooltip/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/tooltip/src/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/tooltip/tests/.eslintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/tooltip/tests/functional/tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/packages/tooltip/yarn.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/yarn.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/templates/ptc/expediente.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/templates/ptc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/templates/ptc/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/views.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dees/ptc/manage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dees/ptc/ptc/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dees/ptc/ptc/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dees/ptc/ptc/wsgi.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dees/ptc/ptc/__init__.py" afterPath="$PROJECT_DIR$/dees/ptc/__init__.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/.bithoundrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/.codeclimate.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/.github/ISSUE_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/.github/PULL_REQUEST_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/.jsdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/.travis.yml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dees/dees/settings.py" afterPath="$PROJECT_DIR$/dees/dees/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dees/dees/urls.py" afterPath="$PROJECT_DIR$/dees/dees/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -840,21 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/index.html">
+      <file leaf-file-name="ptc.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dees/ptc/static/ptc/css/ptc.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dees/ptc/static/ptc/js/page/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+            <state relative-caret-position="187">
+              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -863,8 +35,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dees/ptc/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+            <state relative-caret-position="136">
+              <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -872,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dees/ptc/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="51" column="86" lean-forward="false" selection-start-line="51" selection-start-column="86" selection-end-line="51" selection-end-column="86" />
+            <state relative-caret-position="746">
+              <caret line="121" column="20" lean-forward="false" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -884,15 +56,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="expediente.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/expediente.html">
+      <file leaf-file-name="materias.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/materias.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="74" lean-forward="false" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
+            <state relative-caret-position="1734">
+              <caret line="102" column="142" lean-forward="false" selection-start-line="102" selection-start-column="142" selection-end-line="102" selection-end-column="142" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="e#1337#1344#1" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docencia.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/docencia.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docencia.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dees/ptc/static/ptc/js/page/docencia.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="48" lean-forward="false" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -900,8 +96,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dees/ptc/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="799">
+              <caret line="50" column="4" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="15" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -922,6 +118,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>session</find>
+      <find>criterios</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -932,15 +129,18 @@
       <list>
         <option value="$PROJECT_DIR$/dees/dees/settings.py" />
         <option value="$PROJECT_DIR$/dees/dees/urls.py" />
-        <option value="$PROJECT_DIR$/dees/ptc/static/ptc/css/ptc.css" />
         <option value="$PROJECT_DIR$/dees/ptc/templates/ptc/login.html" />
         <option value="$PROJECT_DIR$/dees/ptc/miclass/validacion.py" />
-        <option value="$PROJECT_DIR$/dees/ptc/urls.py" />
         <option value="$PROJECT_DIR$/dees/ptc/templates/ptc/index.html" />
+        <option value="$PROJECT_DIR$/dees/ptc/static/ptc/css/ptc.css" />
         <option value="$PROJECT_DIR$/dees/ptc/static/ptc/js/page/index.js" />
-        <option value="$PROJECT_DIR$/dees/ptc/models.py" />
-        <option value="$PROJECT_DIR$/dees/ptc/views.py" />
         <option value="$PROJECT_DIR$/dees/ptc/templates/ptc/expediente.html" />
+        <option value="$PROJECT_DIR$/dees/ptc/templates/ptc/docencia.html" />
+        <option value="$PROJECT_DIR$/dees/ptc/models.py" />
+        <option value="$PROJECT_DIR$/dees/ptc/urls.py" />
+        <option value="$PROJECT_DIR$/dees/ptc/static/ptc/js/page/docencia.js" />
+        <option value="$PROJECT_DIR$/dees/ptc/templates/ptc/materias.html" />
+        <option value="$PROJECT_DIR$/dees/ptc/views.py" />
       </list>
     </option>
   </component>
@@ -949,6 +149,25 @@
     <option name="y" value="36" />
     <option name="width" value="1346" />
     <option name="height" value="692" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyCompatibilityInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -969,7 +188,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -999,13 +217,6 @@
               <item name="PTC" type="462c0819:PsiDirectoryNode" />
               <item name="dees" type="462c0819:PsiDirectoryNode" />
               <item name="ptc" type="462c0819:PsiDirectoryNode" />
-              <item name="miclass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PTC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PTC" type="462c0819:PsiDirectoryNode" />
-              <item name="dees" type="462c0819:PsiDirectoryNode" />
-              <item name="ptc" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1023,7 +234,17 @@
               <item name="ptc" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="ptc" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PTC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PTC" type="462c0819:PsiDirectoryNode" />
+              <item name="dees" type="462c0819:PsiDirectoryNode" />
+              <item name="ptc" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="ptc" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="popper.js-1.12.5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PTC" type="b2602c69:ProjectViewProjectNode" />
@@ -1044,17 +265,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dees/ptc/static/ptc" />
+      <recent name="$PROJECT_DIR$/dees/ptc/templates/ptc" />
       <recent name="$PROJECT_DIR$/dees/ptc/static/ptc/css" />
       <recent name="$PROJECT_DIR$/dees/ptc/static/ptc/js" />
-      <recent name="$PROJECT_DIR$/dees/ptc/templates/ptc" />
       <recent name="$PROJECT_DIR$/dees/ptc/static/ptc/img" />
     </key>
   </component>
@@ -1087,10 +310,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="732" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1050" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33106062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22998933" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1130,19 +352,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dees/dees/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1158,7 +371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1166,11 +378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="51" lean-forward="false" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1198,7 +405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1216,10 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#form#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1227,7 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1235,7 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="54" column="18" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1243,11 +443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="51" lean-forward="false" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1283,7 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1390,33 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dees/ptc/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dees/ptc/static/ptc/css/ptc.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1424,34 +591,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="38" column="51" lean-forward="false" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dees/ptc/miclass/validacion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="493">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dees/ptc/static/ptc/fonts/poppins/OFL.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="72" lean-forward="false" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dees/ptc/static/ptc/js/page/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state relative-caret-position="272">
+          <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dees/ptc/static/ptc/css/ptc.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/expediente.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="40" column="32" lean-forward="false" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dees/ptc/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dees/ptc/static/ptc/js/page/docencia.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="48" lean-forward="false" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/docencia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/materias.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="102" column="142" lean-forward="false" selection-start-line="102" selection-start-column="142" selection-end-line="102" selection-end-column="142" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="e#1337#1344#1" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dees/ptc/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="799">
+          <caret line="50" column="4" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="15" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
@@ -1460,22 +690,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dees/ptc/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="51" column="86" lean-forward="false" selection-start-line="51" selection-start-column="86" selection-end-line="51" selection-end-column="86" />
+        <state relative-caret-position="746">
+          <caret line="121" column="20" lean-forward="false" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/expediente.html">
+    <entry file="file://$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="74" lean-forward="false" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#form#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dees/ptc/static/ptc/js/popper.js-1.12.5/.bithoundrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
