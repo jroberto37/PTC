@@ -14,4 +14,16 @@ function ini(){
         });
     });
 
+    $("#menDocenciaInforme").click(function (){
+        $.ajax({
+            url:"docencia",
+            method:"get"
+        }).done(function (res){
+            $("#ICanvas").html(res);
+        }).fail(function (res){
+            alert("Ocurrio un error ");
+            //location.reload();
+        });
+    });
+
 }

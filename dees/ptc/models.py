@@ -27,3 +27,25 @@ class Plaza(models.Model):
     @property
     def __str__(self):
         return self.plaza_pla
+
+class Materias(models.Model):
+    id_mat = models.AutoField(primary_key=True)
+    codigo_mat = models.IntegerField()
+    materia_mat = models.CharField(max_length=255)
+    year_mat = models.IntegerField()
+
+    def __str__(self):
+        return self.materia_mat
+
+class Eval_Materia(models.Model):
+    id_evm = models.AutoField(primary_key=True)
+    curso_evm = models.BooleanField(default=0)
+    planeacion_evm = models.BooleanField(default=0)
+    programa_evm = models.BooleanField(default=0)
+    retroal_evm = models.BooleanField(default=0)
+    ingreso_est_evm = models.IntegerField(default=0)
+    ingreso_prof_evm = models.IntegerField(default=0)
+    est_insc_evm = models.IntegerField(default=0)
+    est_apro_evm = models.IntegerField(default=0)
+    promedio_evm = models.FloatField(default=0)
+    materia_evm = models.ForeignKey(Materias, on_delete=models.CASCADE)

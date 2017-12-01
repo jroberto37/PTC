@@ -1,0 +1,116 @@
+
+        <div class="form-row">
+              <table class="table">
+                <thead class="thead-default">
+                  <tr>
+                    <th>#</th>
+                    <th>Materia</th>
+                    <th>Acciones</th>
+                  </tr>
+                </thead>
+                <tbody>
+                {% for mat in materias %}
+                  <tr>
+                    <th scope="row">{{mat.id_mat}}</th>
+                    <td>{{mat.materia_mat}}</td>
+                    <th> <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#autoEval{{mat.id_mat}}">Autoevaluación</button> </th>
+                  </tr>
+                {% endfor %}
+                </tbody>
+              </table>
+        </div>
+        <div>
+            {% for mat in materias %}
+                <div class="modal" id="autoEval{{mat.id_mat}}" tabindex="-1" role="dialog" style="min-height: 70%; min-width: 40%;">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h6 class="modal-title">{{mat.materia_mat}}</h6>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body" style="word-break: break-all;">
+                          <div class="form-check">
+                            <label class="form-check-label">
+                              <input type="checkbox" id="curso{{mat.id_mat}}" class="form-check-input" value="1">
+                              Cuenta con cursos en línea
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <label class="form-check-label">
+                              <input type="checkbox" id="planeacion{{mat.id_mat}}" class="form-check-input" value="1">
+                              Cuenta con planeación actualizada
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <label class="form-check-label">
+                              <input type="checkbox" id="programa{{mat.id_mat}}" class="form-check-input" value="1">
+                              Cuenta con el programa actualizado de la materia
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <label class="form-check-label">
+                              <input type="checkbox" id="retroal{{mat.id_mat}}" class="form-check-input" value="1">
+                              Se retroalimentan las actividades
+                            </label>
+                          </div>
+
+                            <div class="form-check">
+                              <label class="mr-sm-2" for="slcPInpEst">¿Cuál es el porcentaje de ingreso al curso de los estudiantes?</label>
+                              <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="slcPInpEst{{mat.id_mat}}">
+                                <option value="-1">Selecciona...</option>
+                                {% for x in scale %}
+                                  <option value="{{x}}">{{x}} %</option>
+                                {% endfor%}
+                              </select>
+                            </div>
+
+                            <div class="form-check">
+                              <label class="mr-sm-2" for="slcPInpPro">¿Cuál es el porcentaje de ingreso al curso del profesor?</label>
+                              <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="slcPInpPro{{mat.id_mat}}">
+                                <option value="-1">Selecciona...</option>
+                                {% for x in scale %}
+                                  <option value="{{x}}">{{x}} %</option>
+                                {% endfor%}
+                              </select>
+                            </div>
+
+                            <div class="form-check">
+                              <label class="mr-sm-2" for="slcNEst">Cantidad de estudiantes inscritos en el curso</label>
+                              <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="slcNEst{{mat.id_mat}}">
+                                <option value="-1">Selecciona...</option>
+                                {% for x in scale %}
+                                  <option value="{{x}}">{{x}}</option>
+                                {% endfor%}
+                              </select>
+                            </div>
+
+
+
+                            <div class="form-check">
+                              <label class="mr-sm-2" for="slcNEstAp">Cantidad de estudiantes aprobados en el curso</label>
+                              <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="slcNEstAp{{mat.id_mat}}">
+                                <option value="-1">Selecciona...</option>
+                                {% for x in scale %}
+                                  <option value="{{x}}">{{x}}</option>
+                                {% endfor%}
+                              </select>
+                            </div>
+
+                            <div class="form-check">
+                              <label class="mr-sm-2" for="txtProm">Promedio general del curso</label>
+                              <input type="text" class="form-control mb-2 mb-sm-0" id="promedio{{mat.id_mat}}" placeholder="Promedio" value="0">
+                            </div>
+
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary cmd-msj-mat" mat="{{mat.id_mat}}">Guardar cambios</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            {% endfor %}
+        </div>

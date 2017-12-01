@@ -1,0 +1,44 @@
+{% load static %}
+<div class="card box-form-ptc">
+          <div class="text-center" style="padding: 15px 0px;">
+            <div class="card-title">
+              <h4>Registro de plan de trabajo</h4>
+            </div>
+            <hr>
+          </div>
+    <form id="frmDocencia">
+        {% csrf_token %}
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <label for="inputPeriodo" class="col-form-label">Periodo</label>
+              <select class="form-control" id="slcYear">
+
+                <option value = "-1">Seleccione</option>
+                {% for x in periodo %}
+                  <option value="{{x}}">{{x}}</option>
+                {% endfor %}
+              </select>
+          </div>
+        </div>
+        
+          <div class="text-center" style="padding: 15px 0px;">
+            <div class="card-title">
+              <h4>Docencia</h4>
+            </div>
+          </div>
+
+        <div id="lstMaterias"></div>
+
+        <div align="center">
+             <div class="container">
+                        <button type="button" class="btn btn-primary" id="actividades">Actividades Extrariculares</button>
+                        <button type="button" class="btn btn-primary" id="materialDidactico">Material Didactico</button>
+                        <button type="button" class="btn btn-primary" id="tesis">Tesis</button>
+
+            </div>
+        </div>
+        <div class="col-15" id="Select"></div>
+    </form>
+</div>
+<script src="{% static 'ptc/js/page/docencia.js' %}"></script>
+<script>iniDocencia();</script>
