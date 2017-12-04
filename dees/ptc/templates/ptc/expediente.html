@@ -2,7 +2,8 @@
     <div class="card-title">
       <h4>Expediente laboral</h4>
     </div>
-    <form>
+    <form id="frmExpediente">
+      {% csrf_token %}
       <div class="form-row">
         <div class="form-group col-md-3">
           <label for="inputEmail4" class="col-form-label">Código</label>
@@ -28,16 +29,16 @@
 
       <div class="form-group">
         <label for="inputAddress2" class="col-form-label">Correo electrónico</label>
-        <input type="text" class="form-control" id="inputAddress2" value="{{usu.mail}}">
+        <input type="text" class="form-control" id="mail" value="{{usu.mail}}">
       </div>
           
 
-      <div class="form-group col-md-4" style="padding-left:0px;">
+      <div class="form-group " style="padding-left:0px;">
         <label for="inputState" class="col-form-label">Nombramiento</label>
-          <select class="form-control">
+          <select class="form-control" id="plaza">
             <option selected>Seleccione</option>
             {% for plaza in plazas %}
-              <option value="{{ plaza.id_pla }}"
+              <option value="{{ plaza.plaza_pla }}"
                       {% if usu.categoria == plaza.plaza_pla %}
                         selected
                       {% endif %}
@@ -48,98 +49,42 @@
       </div>
           
 
-     
-        
-<div class="form-row">
-    <!--
-        <div class="form-group col-md-6">
-          <label for="inputState" class="col-form-label">Antigüedad</label>
-            <select class="form-control" >
-                <option selected>Seleccione</option>
-                <?php 
-                    for($x=0;$x < 51; $x++){
-                        echo '<option>'.$x.'</option>';
-                    }
-                ?>
-            </select>
-        </div>
-        <div class="form-group col-md-6">
-          <label for="inputState" class="col-form-label">División de adscripción</label>
-            <select class="form-control">
-              <option selected>Seleccione</option>
-              <option value="1">División de Estudios Científicos y Tecnológicos</option>
-              <option value="2">División de Estudios Económicos y Sociales</option>
-              <option value="2">División de Estudios de la Salud</option>
-             
-            </select>
-        </div> -->
-      </div>                
-        
-        
                
       <div class="form-row">
         <div class="form-group col-md-6">
           <label for="inputState" class="col-form-label">Departamento de adscripción</label>
-            <select class="form-control">
+            <select class="form-control" id="depto">
               <option selected>Seleccione</option>
-              <option value="1">Departamento de Ciencias Computacionales e Ingenierías</option>
-              <option value="2">Departamento de Ciencias Naturales y Exactas</option>
-              <option value="2">Departamento de Ciencias Económicas y Administrativas</option>
-              <option value="1">Departamento de Ciencias Sociales y Humanidades</option>
-              <option value="2">Departamento de Ciencias de la Salud</option>
-              <option value="2">Departamento de Ciencias del Comportamiento</option>              
+            {% for depto in deptos %}
+              <option value="{{ depto.nombre_dep }}"
+                      {% if usu.depto == depto.nombre_dep %}
+                        selected
+                      {% endif %}
+              >{{ depto.nombre_dep }}</option>
+
+            {% endfor %}
             </select>
         </div>
         <div class="form-group col-md-6">
           <label for="inputState" class="col-form-label">Académia de adscripción</label>
-            <select class="form-control">
+            <select class="form-control" id="academia">
               <option selected>Seleccione</option>
-              <?php
-              $data = array();
-              $data[]='Academia de Auditoría e Impuestos';
-                $data[]='Academia de Administración';
-                $data[]='Academia de Contabilidad';
-                $data[]='Academia de Desarrollo de Negocios';
-                $data[]='Academia de Economía';
-                $data[]='Academia de Finanzas';
-                $data[]='Academia de Mercadotecnia';
-                $data[]='Academia de Turismo';
-                $data[]='Academia de Educación';
-                $data[]='Academia de Derecho Civil';
-                $data[]='Academia de Metodología';
-                $data[]='Academia de Trabajo Social';
-                $data[]='Academia de Derecho Mercantil';
-                $data[]='Academia de Derecho Administrativo';
-                $data[]='Academia de Comunicación';
-                $data[]='Academia de Idiomas';
-                $data[]='Academia de Sociologia, Historia y Filosofia';
-                $data[]='Academia de Derecho Penal';
-                $data[]='Academia Ambiental';
-                $data[]='Academia de Álgebra         ';
-                $data[]='Academia de Estadística y Aplicaciones     ';
-                $data[]='Academia de  Matemáticas Avanzadas';
-                $data[]='Academia de Física          ';
-                $data[]='Academia de Ciencias Computacionales';
-                $data[]='Academia de Mecánica';
-                $data[]='Academia de Electrónica';
-                $data[]='Academia de Instrumentación y Control ';
-                $data[]='Academia Informática Aplicada ';
-                $data[]='Academia de Comportamiento social y humano';
-                $data[]='Academia de Salud mental';
-                $data[]='Academia de Fundamentos básicos del comportamiento';
-                $data[]='Academia de Psicología y procesos psicoeducativos';
-                $data[]='Academia Salud y Bienestar';
-                $data[]='Academia Neurociencias';
-                for($x=0; $x < sizeof($data); $x++){
-                    echo '<option>'.$data[$x].'</option>';
-                }
+            {% for academia in academias %}
+              <option value="{{ academia.nombre_aca }}"
+                      {% if usu.academia == academia.nombre_aca %}
+                        selected
+                      {% endif %}
+              >{{ academia.nombre_aca }}</option>
 
-              
-              ?>
+            {% endfor %}
              
             </select>
         </div>
       </div>        
-        <button type="button" class="btn btn-dark">Actualizar</button>
+        <button type="button" class="btn btn-dark" id="cmdUpdExp">Actualizar</button>
     </form>
-</div>    
+</div>
+
+{% load static %}
+<script src="{% static 'ptc/js/page/expediente.js' %}"></script>
+<script>iniExpediente();</script>

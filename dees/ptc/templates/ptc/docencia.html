@@ -6,8 +6,9 @@
             </div>
             <hr>
           </div>
-    <form id="frmDocencia">
+    <form id="frmPeriodo" enctype="multipart/form-data" method="post">
         {% csrf_token %}
+
         <div class="form-row">
           <div class="form-group col-md-4">
             <label for="inputPeriodo" class="col-form-label">Periodo</label>
@@ -20,15 +21,53 @@
               </select>
           </div>
         </div>
-        
-          <div class="text-center" style="padding: 15px 0px;">
-            <div class="card-title">
+    </form>
+          <div class="text-center sombra" style="padding-bottom: 15px;">
+            <div class="card-title bg-info text-white rounded">
               <h4>Docencia</h4>
             </div>
+              <div id="lstMaterias"></div>
           </div>
 
-        <div id="lstMaterias"></div>
 
+
+          <div class="text-center sombra" style="margin: 15px 0px; padding-bottom: 15px;">
+            <div class="card-title bg-info text-white rounded">
+              <h4>Cusrsos</h4>
+            </div>
+              <div id="lstCursos"></div>
+          </div>
+
+
+
+          <div class="text-center sombra" style="margin: 15px 0px; padding-bottom: 15px;">
+            <div class="card-title bg-info text-white rounded">
+              <h4>Talleres y seminarios</h4>
+            </div>
+              <div id="lstTalleres"></div>
+          </div>
+
+
+
+          <div class="text-center sombra" style="margin: 15px 0px; padding-bottom: 15px;">
+            <div class="card-title bg-info text-white rounded">
+              <h4>Talleres de Educación Continua</h4>
+            </div>
+              <div id="lstTalleresEdu"></div>
+          </div>
+
+
+
+          <div class="text-center sombra" style="margin: 15px 0px; padding-bottom: 15px;">
+            <div class="card-title bg-info text-white rounded">
+              <h4>Talleres de Educación Abierta</h4>
+            </div>
+              <div id="lstTalleresEduAbierta"></div>
+          </div>
+
+
+
+        <!--
         <div align="center">
              <div class="container">
                         <button type="button" class="btn btn-primary" id="actividades">Actividades Extrariculares</button>
@@ -37,8 +76,9 @@
 
             </div>
         </div>
-        <div class="col-15" id="Select"></div>
-    </form>
+        -->
+
+    <!--</form>-->
 </div>
 <script src="{% static 'ptc/js/page/docencia.js' %}"></script>
 <script>iniDocencia();</script>

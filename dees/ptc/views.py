@@ -1,13 +1,19 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-
-
+from django.utils import timezone
+import os
 import json
 from django.http import HttpResponse
+from setuptools.command import upload
+
 from .miclass.validacion import Validacion
 from .models import *
 from django.shortcuts import render
 from django.shortcuts import redirect
+
+#Para cargar archivos
+from django.conf import settings
+from django.core.files.storage import FileSystemStorage
 
 # Create your views here.
 
@@ -15,7 +21,6 @@ def index(request):
     try:
         codigo = request.session['codigo']
         print(codigo)
-        print("la sesion expira en")
         prof = request.session['codigo']
         expira = request.session.get_expiry_date()
         return render(request, 'ptc/index.html',{'codigo':prof,'expira':expira})
@@ -49,7 +54,30 @@ def expediente(request):
         try:
             info = Profesor.objects.get(codigo=usu)
             plazas = Plaza.objects.all()
-            return render(request, 'ptc/expediente.html', {'usu': info,'plazas':plazas})
+            deptos = Departamento.objects.all()
+            academias = Academia.objects.all()
+            return render(request, 'ptc/expediente.html', {'usu': info,'plazas':plazas,'deptos':deptos,'academias':academias})
+        except Profesor.DoesNotExist:
+            return render(request, 'ptc/expediente.html', {'mensaje':'El codigo no existe'})
+    except KeyError:
+        return redirect('/')
+
+def upd_expediente(request):
+    try:
+        usu = request.session["codigo"]
+        try:
+            mail = request.POST["mail"]
+            plaza = request.POST["plaza"]
+            depto = request.POST["depto"]
+            academia = request.POST["academia"]
+            q = Profesor.objects.get(codigo=usu)
+            q.mail = mail
+            q.depto = depto
+            q.categoria = plaza
+            q.academia = academia
+            q.save()
+            return HttpResponse("Se actualizó con éxito su expediente")
+            #return render(request, 'ptc/expediente.html', {'usu': info,'plazas':plazas,'deptos':deptos,'academias':academias})
         except Profesor.DoesNotExist:
             return render(request, 'ptc/expediente.html', {'mensaje':'El codigo no existe'})
     except KeyError:
@@ -76,7 +104,8 @@ def materias(request):
         usu = request.session["codigo"]
         year = request.POST["year"]
         try:
-            mats = Materias.objects.filter(codigo_mat=usu, year_mat = year)
+            #mats = Materias.objects.filter(codigo_mat=usu, year_mat = year)
+            mats = Materias.objects.raw("Select * From ptc_materias left join ptc_eval_materia on materia_evm_id = id_mat where codigo_mat = " + usu + " and year_mat = "+year)
             scale = range(0,101)
             return render(request, 'ptc/materias.html',{'materias':mats,'scale':scale})
         except Profesor.DoesNotExist:
@@ -121,3 +150,105 @@ def materia_eval(request):
             return HttpResponse("Se registró con éxito la información")
     except KeyError:
         return HttpResponse("Ocurrió un error inesperado")
+
+def cursos(request):
+    try:
+        usu = request.session["codigo"]
+        year = request.POST["year"]
+        try:
+            mats = Materias.objects.filter(codigo_mat=usu, year_mat = year)
+            cursos = Curso.objects.raw("Select * From ptc_curso left join ptc_materias on codigo_mat = "+usu+" where id_mat = materia_cur_id and year_mat = "+year)
+            #mats = Materias.objects.raw("Select * From ptc_materias left join ptc_eval_materia on materia_evm_id = id_mat where codigo_mat = " + usu + " and year_mat = "+year)
+            #scale = range(0,101)
+            return render(request, 'ptc/cursos.html',{'mats':mats, 'cursos':cursos})
+        except Profesor.DoesNotExist:
+            return render(request, 'ptc/cursos.html')
+    except KeyError:
+        return redirect('/')
+
+def nuevo_curso(request):
+    try:
+        usu = request.session["codigo"]
+        year = request.POST["year"]
+        try:
+            if request.FILES["fileEvidencia"]:
+                actividad = request.POST["actividad"]
+                asignatura = request.POST["asignatura"]
+                avance = request.POST["avance"]
+
+                myfile = request.FILES['fileEvidencia']
+                fs = FileSystemStorage()
+                url = "cursos/"+str(timezone.now())+"_"+asignatura+"_"+myfile.name
+                url = url.replace(" ","")
+                url = url.lower()
+                #filename = fs.save('cursos/'+myfile.name, myfile)
+                #filename = fs.save(url, myfile)
+                fs.save(url, myfile)
+                mat = Materias.objects.get(id_mat=asignatura)
+                q = Curso(actividad_cur=actividad, avance_cur=avance, evidencia_cur=url, materia_cur=mat)
+                q.save()
+                return HttpResponse("Se registró con éxito la activdad")
+            return HttpResponse("Error al procesar la actividad")
+        except Materias.DoesNotExist:
+            return HttpResponse("Ocurrió un error al momento de registrar la actividad")
+    except KeyError:
+        return redirect('/')
+
+def elimina_curso(request):
+    try:
+        usu = request.session["codigo"]
+        evidencia = request.POST["evidencia"]
+        try:
+            q = Curso.objects.get(id_cur=evidencia)
+            archivo = q.evidencia_cur
+            q.delete()
+            file_path = settings.BASE_DIR +"/media/" +archivo
+            print(file_path)
+            if os.path.isfile(file_path):
+                os.remove(file_path)
+            return HttpResponse("Se eliminó con éxito la actividad")
+        except Curso.DoesNotExist:
+            return HttpResponse("Ocurrió un error al momento de eliminar la actividad")
+    except KeyError:
+        return redirect('/')
+
+def talleres(request):
+    try:
+        usu = request.session["codigo"]
+        year = request.POST["year"]
+        try:
+            profs = Profesor.objects.order_by('appat')
+            #mats = Materias.objects.filter(codigo_mat=usu, year_mat = year)
+            #cursos = Curso.objects.raw("Select * From ptc_curso left join ptc_materias on codigo_mat = "+usu+" where id_mat = materia_cur_id and year_mat = "+year)
+            #mats = Materias.objects.raw("Select * From ptc_materias left join ptc_eval_materia on materia_evm_id = id_mat where codigo_mat = " + usu + " and year_mat = "+year)
+            #scale = range(0,101)
+            return render(request, 'ptc/talleres.html', {'profs':profs})
+        except Profesor.DoesNotExist:
+            return render(request, 'ptc/talleres.html')
+    except KeyError:
+        return redirect('/')
+
+def nuevo_taller(request):
+    try:
+        usu = request.session["codigo"]
+        year = request.POST["year"]
+        try:
+            if request.FILES["fileTTaller"]:
+                taller = request.POST["nomTTaller"]
+                horas = request.POST["horasTTaller"]
+                participantes = request.POST["slcTProf"]
+                myfile = request.FILES['fileTTaller']
+                fs = FileSystemStorage()
+                url = "talleres/"+str(timezone.now())+"_"+year+"_"+"_"+usu+"_"+myfile.name
+                url = url.replace(" ","")
+                url = url.lower()
+                fs.save(url, myfile)
+                profe = Profesor.objects.get(codigo=usu)
+                q = Talleres(taller_tal = taller, horas_tal = horas, profesores_tal = participantes, evidencia_tal=url, year_tal=year, profesor_tal = profe)
+                q.save()
+                return HttpResponse("Se registró con éxito el taller")
+            return HttpResponse("Error al procesar el tallers")
+        except Profesor.DoesNotExist:
+            return HttpResponse("Ocurrió un error al momento de registrar el taller")
+    except KeyError:
+        return redirect('/')

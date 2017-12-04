@@ -1,0 +1,52 @@
+<div>
+    <form id="frmTalleres" enctype="multipart/form-data" method="post">
+    {% csrf_token %}
+        <div class="form-row">
+            
+            <div class="form-group col-md-9">
+                <label for="inputNomTaller" class="col-form-label">Nombre taller o seminario</label>
+                <input type="text" class="form-control" name="nomTTaller" id="nomTTaller" placeholder="" required>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="inputPeriodo" class="col-form-label">Carga horaria</label>
+                <input type="text" class="form-control" name="horasTTaller" id="horasTTaller" placeholder="" required>
+                    
+                  </select>
+            </div>
+        </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect2">Profesores participantes</label>
+            <select multiple class="form-control" id="slcTProf" name="slcTProf" required>
+              {%for prof in profs%}
+                <option value="{{prof.appat}} {{prof.apmat}} {{prof.nombre}}">{{prof.appat}} {{prof.apmat}} {{prof.nombre}}</option>
+              {%endfor%}
+            </select>
+          </div>
+        <div class="form-group text-left" >
+            <label for="fileTaller">Evidencia Acta.</label>
+            <label class="custom-file">
+              <input type="file" id="fileTTaller" name="fileTTaller" class="custom-file-input" required>
+              <span class="custom-file-control"></span>
+            </label>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-outline-primary" data-toggle="modal">Guardar</button>
+        </div>
+        <div class="form-row">
+             <table class="table" id="tablaDocencia">
+              <thead class="thead-default">
+                <tr>
+                    <th>#</th>
+                    <th>Actividad.</th>
+                    <th>Horario</th>
+                    <th>Nombre Participantes</th>
+                    <th>Validación.</th>
+                    <th>Evidencia.</th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>          
+        </div>            
+    </form>
+</div> 

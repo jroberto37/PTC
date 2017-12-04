@@ -1,0 +1,81 @@
+{%load static%}
+<div>
+    <form id="frmCursosNue" enctype="multipart/form-data" method="post">
+        {% csrf_token %}
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="inputAct" class="col-form-label">Actividad</label>
+                <select class="form-control" name="actividad" id="actividad" required>
+                    <option value="-1" selected>Seleccione...</option>
+                    <option value="Diseño de programas de cursos">Diseño de programas de cursos</option>
+                    <option value="Modificación de programas de cursos">Modificación de programas de cursos</option>
+                    <option value="Evaluación de programas de cursos">Evaluación de programas de cursos</option>
+                    <option value="Diseño de plan de estudios">Diseño de plan de estudios</option>
+                    <option value="Modificación de plan de estudios">Modificación de plan de estudios</option>
+                    <option value="Evaluación de plan de estudios">Evaluación de plan de estudios</option>
+                </select>
+            </div>
+        
+        
+            <div class="form-group col-md-4">
+              <label for="inputAsig" class="col-form-label">Asignatura</label>
+                <select class="form-control" name="asignatura" id="asignatura" required>
+                  <option value="-1" selected>Seleccione...</option>
+                  {%for mat in mats%}
+                    <option value="{{mat.id_mat}}">{{mat.materia_mat}}</option>
+                  {%endfor%}
+                </select>
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputAva" class="col-form-label">Avance de la actividad</label>
+                <select class="form-control" name="avance" id="avance" required>
+                  <option value="-1" selected>Seleccione...</option>
+                  <option value="En proceso">En proceso</option>
+                  <option value="Terminado">Terminado</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="form-group text-left" >
+            <label for="fileEvidencia">Evidencia Acta.</label>
+            <label class="custom-file">
+              <input type="file" id="fileEvidencia" name="fileEvidencia" class="custom-file-input" required>
+              <span class="custom-file-control"></span>
+            </label>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-outline-primary" data-toggle="modal">Guardar</button>
+        </div>
+
+        <div class="form-row">
+             <table class="table" id="tablaDocencia">
+              <thead class="thead-default">
+                <tr>
+                    <th>#</th>
+                    <th>Actividad</th>
+                    <th>Asignatura</th>
+                    <th>Avance Actividad</th>
+                    <th>Evidencia</th>
+                    <th>Acción</th>
+                </tr>
+              </thead>
+              <tbody>
+              {%for curso in cursos%}
+                <tr>
+                    <th>{{curso.id_cur}}</th>
+                    <td>{{curso.actividad_cur}}</td>
+                    <td>{{curso.materia_mat}}</td>
+                    <td>{{curso.avance_cur}}</td>
+                    <td><a href="../media/{{curso.evidencia_cur}}" target="_blank">
+                        <img src="{%static 'ptc/img/open-iconic-master/png/document-3x.png'%}">
+                    </a></td>
+                    <td><img src="{%static 'ptc/img/open-iconic-master/png/trash-3x.png'%}" evid="{{curso.id_cur}}" class="delEvidCur" title="Eliminar activdad"></td>
+                </tr>
+              {%endfor%}
+              </tbody>
+            </table>          
+        </div>    
+    </form>
+</div> 
+

@@ -1,4 +1,7 @@
 
+    <form id="frmDocencia" enctype="multipart/form-data" method="post">
+        {% csrf_token %}
+
         <div class="form-row">
               <table class="table">
                 <thead class="thead-default">
@@ -33,25 +36,25 @@
                       <div class="modal-body" style="word-break: break-all;">
                           <div class="form-check">
                             <label class="form-check-label">
-                              <input type="checkbox" id="curso{{mat.id_mat}}" class="form-check-input" value="1">
-                              Cuenta con cursos en línea
+                                <input type="checkbox" id="curso{{mat.id_mat}}" class="form-check-input" value="1" {% if mat.curso_evm == 1%}checked{%endif%}>
+                                Cuenta con cursos en línea
                             </label>
                           </div>
                           <div class="form-check">
                             <label class="form-check-label">
-                              <input type="checkbox" id="planeacion{{mat.id_mat}}" class="form-check-input" value="1">
+                              <input type="checkbox" id="planeacion{{mat.id_mat}}" class="form-check-input" value="1" {% if mat.planeacion_evm == 1%}checked{%endif%}>
                               Cuenta con planeación actualizada
                             </label>
                           </div>
                           <div class="form-check">
                             <label class="form-check-label">
-                              <input type="checkbox" id="programa{{mat.id_mat}}" class="form-check-input" value="1">
+                              <input type="checkbox" id="programa{{mat.id_mat}}" class="form-check-input" value="1" {% if mat.programa_evm == 1%}checked{%endif%}>
                               Cuenta con el programa actualizado de la materia
                             </label>
                           </div>
                           <div class="form-check">
                             <label class="form-check-label">
-                              <input type="checkbox" id="retroal{{mat.id_mat}}" class="form-check-input" value="1">
+                              <input type="checkbox" id="retroal{{mat.id_mat}}" class="form-check-input" value="1" {% if mat.retroal_evm == 1%}checked{%endif%}>
                               Se retroalimentan las actividades
                             </label>
                           </div>
@@ -61,7 +64,7 @@
                               <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="slcPInpEst{{mat.id_mat}}">
                                 <option value="-1">Selecciona...</option>
                                 {% for x in scale %}
-                                  <option value="{{x}}">{{x}} %</option>
+                                  <option value="{{x}}" {% if mat.ingreso_est_evm == x%}selected{%endif%}>{{x}} %</option>
                                 {% endfor%}
                               </select>
                             </div>
@@ -71,7 +74,7 @@
                               <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="slcPInpPro{{mat.id_mat}}">
                                 <option value="-1">Selecciona...</option>
                                 {% for x in scale %}
-                                  <option value="{{x}}">{{x}} %</option>
+                                  <option value="{{x}}" {% if mat.ingreso_prof_evm == x%}selected{%endif%}>{{x}} %</option>
                                 {% endfor%}
                               </select>
                             </div>
@@ -81,7 +84,7 @@
                               <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="slcNEst{{mat.id_mat}}">
                                 <option value="-1">Selecciona...</option>
                                 {% for x in scale %}
-                                  <option value="{{x}}">{{x}}</option>
+                                  <option value="{{x}}" {% if mat.est_insc_evm == x%}selected{%endif%}>{{x}}</option>
                                 {% endfor%}
                               </select>
                             </div>
@@ -93,14 +96,14 @@
                               <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="slcNEstAp{{mat.id_mat}}">
                                 <option value="-1">Selecciona...</option>
                                 {% for x in scale %}
-                                  <option value="{{x}}">{{x}}</option>
+                                  <option value="{{x}}" {% if mat.est_apro_evm == x%}selected{%endif%}>{{x}}</option>
                                 {% endfor%}
                               </select>
                             </div>
 
                             <div class="form-check">
                               <label class="mr-sm-2" for="txtProm">Promedio general del curso</label>
-                              <input type="text" class="form-control mb-2 mb-sm-0" id="promedio{{mat.id_mat}}" placeholder="Promedio" value="0">
+                              <input type="text" class="form-control mb-2 mb-sm-0" id="promedio{{mat.id_mat}}" placeholder="Promedio" {% if mat.promedio_evm == Null%}value="0"{%else%}value="{{mat.promedio_evm}}"{%endif%}>
                             </div>
 
 
@@ -114,3 +117,5 @@
                 </div>
             {% endfor %}
         </div>
+
+    </form>
