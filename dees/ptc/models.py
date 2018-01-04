@@ -89,4 +89,32 @@ class Talleres(models.Model):
 
     @property
     def __str__(self):
-        return self.actividad_cur
+        return self.taller_tal
+
+class Taller_Educacion(models.Model):
+    id_tae = models.AutoField(primary_key=True)
+    taller_tae = models.CharField(max_length=255)
+    horas_tae = models.FloatField()
+    profesores_tae = models.TextField()
+    evidencia_tae = models.CharField(max_length=500)
+    year_tae = models.IntegerField()
+    profesor_tae = models.ForeignKey(Profesor, on_delete=models.CASCADE)
+    status_tae = models.CharField(max_length=255, null=True)
+
+    @property
+    def __str__(self):
+        return self.taller_tae
+
+class Taller_EduAbierta(models.Model):
+    id_tea = models.AutoField(primary_key=True)
+    taller_tea = models.CharField(max_length=255)
+    horas_tea = models.FloatField()
+    profesores_tea = models.TextField()
+    evidencia_tea = models.CharField(max_length=500)
+    year_tea = models.IntegerField()
+    profesor_tea = models.ForeignKey(Profesor, on_delete=models.CASCADE)
+    status_tea = models.CharField(max_length=255, null=True)
+
+    @property
+    def __str__(self):
+        return self.taller_tea

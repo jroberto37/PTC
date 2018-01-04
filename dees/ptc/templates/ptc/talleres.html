@@ -1,3 +1,4 @@
+{%load static%}
 <div>
     <form id="frmTalleres" enctype="multipart/form-data" method="post">
     {% csrf_token %}
@@ -10,8 +11,6 @@
             <div class="form-group col-md-3">
                 <label for="inputPeriodo" class="col-form-label">Carga horaria</label>
                 <input type="text" class="form-control" name="horasTTaller" id="horasTTaller" placeholder="" required>
-                    
-                  </select>
             </div>
         </div>
           <div class="form-group">
@@ -23,7 +22,7 @@
             </select>
           </div>
         <div class="form-group text-left" >
-            <label for="fileTaller">Evidencia Acta.</label>
+            <label for="fileTaller">Evidencia </label>
             <label class="custom-file">
               <input type="file" id="fileTTaller" name="fileTTaller" class="custom-file-input" required>
               <span class="custom-file-control"></span>
@@ -32,19 +31,31 @@
         <div class="form-group">
             <button type="submit" class="btn btn-outline-primary" data-toggle="modal">Guardar</button>
         </div>
-        <div class="form-row">
+        <div class="form-row" style="overflow:auto;">
              <table class="table" id="tablaDocencia">
               <thead class="thead-default">
                 <tr>
                     <th>#</th>
-                    <th>Actividad.</th>
+                    <th>Actividad</th>
                     <th>Horario</th>
                     <th>Nombre Participantes</th>
-                    <th>Validación.</th>
-                    <th>Evidencia.</th>
+                    <th>Evidencia</th>
+                    <th>Acción</th>
                 </tr>
               </thead>
               <tbody>
+              {% for taller in talleres%}
+                <tr>
+                    <th>{{taller.id_tal}}</th>
+                    <td>{{taller.taller_tal}}</td>
+                    <td>{{taller.horas_tal}}</td>
+                    <td>{{taller.profesores_tal}}</td>
+                    <td><a href="../media/{{taller.evidencia_tal}}" target="_blank">
+                        <img src="{%static 'ptc/img/open-iconic-master/png/document-3x.png'%}" title="{{taller.taller_tal}}" class="btnDel">
+                    </a></td>
+                    <td><img src="{%static 'ptc/img/open-iconic-master/png/trash-3x.png'%}" evid="{{taller.id_tal}}" class="delEvidTaller btnDel" title="Eliminar taller"></td>
+                </tr>
+              {%endfor%}
               </tbody>
             </table>          
         </div>            

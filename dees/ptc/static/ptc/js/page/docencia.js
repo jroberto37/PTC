@@ -8,6 +8,8 @@ function iniDocencia(){
             loadMaterias(res[0]);
             loadCursos(res[0]);
             loadTalleres(res[0]);
+            loadEduCon(res[0]);
+            loadEduAbi(res[0]);
         }
     });
 }
@@ -176,8 +178,15 @@ function actTalleres(anio){
             return;
         }
 
+        var profesores = "";
+        var listaprof = $("#slcTProf :selected");
+        for (t = 0; t < listaprof.length; t++){
+            profesores+= $(listaprof[t]).html();
+            if(t < (listaprof.length -1)){profesores+=", ";}
+        }
         var formData = new FormData(document.getElementById("frmTalleres"));
         formData.append("year", anio);
+        formData.append("listaprof", profesores);
         $.ajax({
             url:"nuevo_taller/",
             type: "post",
@@ -191,4 +200,191 @@ function actTalleres(anio){
             loadTalleres(anio);
         });
     });
+    actEliminarEvidTaller(anio);
+}
+
+
+function actEliminarEvidTaller(anio){
+    var evidencias = $(".delEvidTaller");
+    for (x=0;x < evidencias.length; x++){
+        $(evidencias[x]).click(function (){
+            var resp = confirm("¿Realmente deseas eliminar el taller?");
+            if (resp){
+                var info = {
+                    evidencia:$(this).attr("evid")
+                };
+                info[$("#frmPeriodo").find("input:hidden").attr("name")] = $("#frmPeriodo").find("input:hidden").val();
+                $.ajax({
+                    url:"elimina_taller/",
+                    method:"post",
+                    data: info
+                }).done(function(res){
+                    alert(res);
+                    loadTalleres(anio);
+                }).fail(function (){
+                    alert("Ocurrió un error al momento de eliminar el taller");
+                });
+            }
+        });
+    }
+}
+
+/*Métodos de educacion continua*/
+
+function loadEduCon(anio){
+    var info = {
+        year:anio
+    };
+    info[$("#frmPeriodo").find("input:hidden").attr("name")] = $("#frmPeriodo").find("input:hidden").val();
+    $.ajax({
+        url:"educon/",
+        method:"post",
+        data: info
+    }).done(function(res){
+        $("#lstTalleresEdu").html(res);
+        actEduCon(anio);
+    });
+
+}
+
+function actEduCon(anio){
+    $("#frmEduCon").on("submit",function (e){
+        e.preventDefault();
+        var dir_archivo = $("#fileTTallerEC").val();
+        var nombre_archivo = dir_archivo.split("\\");
+
+        if(nombre_archivo[nombre_archivo.length-1].length > 40){
+            alert("El nombre de su documento es demasiado largo contien " + nombre_archivo[nombre_archivo.length-1].length+ " leltas \n" + nombre_archivo[nombre_archivo.length-1] + "\nel máximo permitido es de 40 letras");
+            return;
+        }
+
+        var profesores = "";
+        var listaprof = $("#slcTProfEC :selected");
+        for (t = 0; t < listaprof.length; t++){
+            profesores+= $(listaprof[t]).html();
+            if(t < (listaprof.length -1)){profesores+=", ";}
+        }
+        var formData = new FormData(document.getElementById("frmEduCon"));
+        formData.append("year", anio);
+        formData.append("listaprof", profesores);
+        $.ajax({
+            url:"nuevo_educon/",
+            type: "post",
+            dataType: "html",
+            data: formData,
+            cache: false,
+            contentType: false,
+            processData: false
+        }).done(function(res){
+            alert(res);
+            loadEduCon(anio);
+        });
+    });
+    actEliminarEvidEduCon(anio);
+}
+
+
+function actEliminarEvidEduCon(anio){
+    var evidencias = $(".delEvidTallerEC");
+    for (x=0;x < evidencias.length; x++){
+        $(evidencias[x]).click(function (){
+            var resp = confirm("¿Realmente deseas eliminar el taller?");
+            if (resp){
+                var info = {
+                    evidencia:$(this).attr("evid")
+                };
+                info[$("#frmPeriodo").find("input:hidden").attr("name")] = $("#frmPeriodo").find("input:hidden").val();
+                $.ajax({
+                    url:"elimina_educon/",
+                    method:"post",
+                    data: info
+                }).done(function(res){
+                    alert(res);
+                    loadEduCon(anio);
+                }).fail(function (){
+                    alert("Ocurrió un error al momento de eliminar el taller");
+                });
+            }
+        });
+    }
+}
+
+/*Métodos de educacion abierta*/
+
+function loadEduAbi(anio){
+    var info = {
+        year:anio
+    };
+    info[$("#frmPeriodo").find("input:hidden").attr("name")] = $("#frmPeriodo").find("input:hidden").val();
+    $.ajax({
+        url:"eduabi/",
+        method:"post",
+        data: info
+    }).done(function(res){
+        $("#lstTalleresEduAbierta").html(res);
+        actEduAbi(anio);
+    });
+
+}
+
+function actEduAbi(anio){
+    $("#frmEduAbi").on("submit",function (e){
+        e.preventDefault();
+        var dir_archivo = $("#fileTTallerEA").val();
+        var nombre_archivo = dir_archivo.split("\\");
+
+        if(nombre_archivo[nombre_archivo.length-1].length > 40){
+            alert("El nombre de su documento es demasiado largo contien " + nombre_archivo[nombre_archivo.length-1].length+ " leltas \n" + nombre_archivo[nombre_archivo.length-1] + "\nel máximo permitido es de 40 letras");
+            return;
+        }
+
+        var profesores = "";
+        var listaprof = $("#slcTProfEA :selected");
+        for (t = 0; t < listaprof.length; t++){
+            profesores+= $(listaprof[t]).html();
+            if(t < (listaprof.length -1)){profesores+=", ";}
+        }
+        var formData = new FormData(document.getElementById("frmEduAbi"));
+        formData.append("year", anio);
+        formData.append("listaprof", profesores);
+        $.ajax({
+            url:"nuevo_eduabi/",
+            type: "post",
+            dataType: "html",
+            data: formData,
+            cache: false,
+            contentType: false,
+            processData: false
+        }).done(function(res){
+            alert(res);
+            loadEduAbi(anio);
+        });
+    });
+    actEliminarEvidEduAbi(anio);
+}
+
+
+function actEliminarEvidEduAbi(anio){
+    var evidencias = $(".delEvidTallerEA");
+    for (x=0;x < evidencias.length; x++){
+        $(evidencias[x]).click(function (){
+            var resp = confirm("¿Realmente deseas eliminar el taller?");
+            if (resp){
+                var info = {
+                    evidencia:$(this).attr("evid")
+                };
+                info[$("#frmPeriodo").find("input:hidden").attr("name")] = $("#frmPeriodo").find("input:hidden").val();
+                $.ajax({
+                    url:"elimina_eduabi/",
+                    method:"post",
+                    data: info
+                }).done(function(res){
+                    alert(res);
+                    loadEduAbi(anio);
+                }).fail(function (){
+                    alert("Ocurrió un error al momento de eliminar el taller");
+                });
+            }
+        });
+    }
 }

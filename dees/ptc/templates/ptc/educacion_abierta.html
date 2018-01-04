@@ -1,0 +1,76 @@
+{%load static%}
+<div>
+    <form id="frmEduAbi" enctype="multipart/form-data" method="post">
+    {% csrf_token %}
+        <div class="form-row">
+            
+            <div class="form-group col-md-9">
+                <label for="nomTTallerEA" class="col-form-label">Nombre taller</label>
+                <input type="text" class="form-control" name="nomTTallerEA" id="nomTTallerEA" placeholder="" required>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="horasTTallerEA" class="col-form-label">Carga horaria</label>
+                <input type="text" class="form-control" name="horasTTallerEA" id="horasTTallerEA" placeholder="" required>
+                    
+
+            </div>
+        </div>
+          <div class="form-group">
+            <label for="slcTProfEA">Profesores participantes</label>
+            <select multiple class="form-control" id="slcTProfEA" name="slcTProfEA" required>
+              {%for prof in profs%}
+                <option value="{{prof.appat}} {{prof.apmat}} {{prof.nombre}}">{{prof.appat}} {{prof.apmat}} {{prof.nombre}}</option>
+              {%endfor%}
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="slcTEstatusEA">Estatus</label>
+            <select class="form-control" id="slcTEstatusEA" name="slcTEstatusEA" required>
+                <option value="">Seleccione...</option>
+                <option value="En proceo">En proceso</option>
+                <option value="Concluido">Concluido</option>
+            </select>
+          </div>
+        <div class="form-group text-left" >
+            <label for="fileTTallerEA">Evidencia </label>
+            <label class="custom-file">
+              <input type="file" id="fileTTallerEA" name="fileTTallerEA" class="custom-file-input" required>
+              <span class="custom-file-control"></span>
+            </label>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-outline-primary" data-toggle="modal">Guardar</button>
+        </div>
+        <div class="form-row" style="overflow:auto;">
+             <table class="table" id="tablaDocenciaEA">
+              <thead class="thead-default">
+                <tr>
+                    <th>#</th>
+                    <th>Taller</th>
+                    <th>Horario</th>
+                    <th>Nombre Participantes</th>
+                    <th>Estatus</th>
+                    <th>Evidencia</th>
+                    <th>Acción</th>
+                </tr>
+              </thead>
+              <tbody>
+              {% for taller in talleres%}
+                <tr>
+                    <th>{{taller.id_tea}}</th>
+                    <td>{{taller.taller_tea}}</td>
+                    <td>{{taller.horas_tea}}</td>
+                    <td>{{taller.profesores_tea}}</td>
+                    <td>{{taller.status_tea}}</td>
+                    <td><a href="../media/{{taller.evidencia_tea}}" target="_blank">
+                        <img src="{%static 'ptc/img/open-iconic-master/png/document-3x.png'%}" title="{{taller.taller_tea}}" class="btnDel">
+                    </a></td>
+                    <td><img src="{%static 'ptc/img/open-iconic-master/png/trash-3x.png'%}" evid="{{taller.id_tea}}" class="delEvidTallerEA btnDel" title="Eliminar taller"></td>
+                </tr>
+              {%endfor%}
+              </tbody>
+            </table>          
+        </div>            
+    </form>
+</div> 

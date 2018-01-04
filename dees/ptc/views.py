@@ -48,6 +48,16 @@ def valusu(request):
     except KeyError:
         return render(request, 'ptc/login.html')
 
+
+def salir(request):
+    try:
+        del request.session['codigo']
+        #request.session["codigo"].delete()
+        return HttpResponse("ok_session_close")
+    except KeyError:
+        return HttpResponse("err_session_close")
+
+
 def expediente(request):
     try:
         usu = request.session["codigo"]
@@ -203,7 +213,7 @@ def elimina_curso(request):
             archivo = q.evidencia_cur
             q.delete()
             file_path = settings.BASE_DIR +"/media/" +archivo
-            print(file_path)
+            #print(file_path)
             if os.path.isfile(file_path):
                 os.remove(file_path)
             return HttpResponse("Se eliminó con éxito la actividad")
@@ -218,11 +228,8 @@ def talleres(request):
         year = request.POST["year"]
         try:
             profs = Profesor.objects.order_by('appat')
-            #mats = Materias.objects.filter(codigo_mat=usu, year_mat = year)
-            #cursos = Curso.objects.raw("Select * From ptc_curso left join ptc_materias on codigo_mat = "+usu+" where id_mat = materia_cur_id and year_mat = "+year)
-            #mats = Materias.objects.raw("Select * From ptc_materias left join ptc_eval_materia on materia_evm_id = id_mat where codigo_mat = " + usu + " and year_mat = "+year)
-            #scale = range(0,101)
-            return render(request, 'ptc/talleres.html', {'profs':profs})
+            lsttalleres = Talleres.objects.filter(year_tal = year, profesor_tal=usu)
+            return render(request, 'ptc/talleres.html', {'profs':profs,'talleres':lsttalleres})
         except Profesor.DoesNotExist:
             return render(request, 'ptc/talleres.html')
     except KeyError:
@@ -236,7 +243,7 @@ def nuevo_taller(request):
             if request.FILES["fileTTaller"]:
                 taller = request.POST["nomTTaller"]
                 horas = request.POST["horasTTaller"]
-                participantes = request.POST["slcTProf"]
+                participantes = request.POST["listaprof"]
                 myfile = request.FILES['fileTTaller']
                 fs = FileSystemStorage()
                 url = "talleres/"+str(timezone.now())+"_"+year+"_"+"_"+usu+"_"+myfile.name
@@ -250,5 +257,137 @@ def nuevo_taller(request):
             return HttpResponse("Error al procesar el tallers")
         except Profesor.DoesNotExist:
             return HttpResponse("Ocurrió un error al momento de registrar el taller")
+    except KeyError:
+        return redirect('/')
+
+def elimina_taller(request):
+    try:
+        usu = request.session["codigo"]
+        evidencia = request.POST["evidencia"]
+        try:
+            q = Talleres.objects.get(id_tal=evidencia)
+            archivo = q.evidencia_tal
+            q.delete()
+            file_path = settings.BASE_DIR +"/media/" +archivo
+            #print(file_path)
+            if os.path.isfile(file_path):
+                os.remove(file_path)
+            return HttpResponse("Se eliminó con éxito el taller")
+        except Curso.DoesNotExist:
+            return HttpResponse("Ocurrió un error al momento de eliminar el taller")
+    except KeyError:
+        return redirect('/')
+
+def educon(request):
+    try:
+        usu = request.session["codigo"]
+        year = request.POST["year"]
+        try:
+            profs = Profesor.objects.order_by('appat')
+            lsttalleres = Taller_Educacion.objects.filter(year_tae = year, profesor_tae=usu)
+            return render(request, 'ptc/educacion_continua.html', {'profs':profs, 'talleres':lsttalleres})
+        except Profesor.DoesNotExist:
+            return render(request, 'ptc/educacion_continua.html')
+    except KeyError:
+        return redirect('/')
+
+def nuevo_educon(request):
+    try:
+        usu = request.session["codigo"]
+        year = request.POST["year"]
+        try:
+            if request.FILES["fileTTallerEC"]:
+                taller = request.POST["nomTTallerEC"]
+                horas = request.POST["horasTTallerEC"]
+                participantes = request.POST["listaprof"]
+                status = request.POST["slcTEstatusEC"]
+                myfile = request.FILES['fileTTallerEC']
+                fs = FileSystemStorage()
+                url = "educon/"+str(timezone.now())+"_"+year+"_"+"_"+usu+"_"+myfile.name
+                url = url.replace(" ","")
+                url = url.lower()
+                fs.save(url, myfile)
+                profe = Profesor.objects.get(codigo=usu)
+                q = Taller_Educacion(taller_tae = taller, horas_tae = horas, profesores_tae = participantes, evidencia_tae=url, year_tae=year, profesor_tae = profe, status_tae = status)
+                q.save()
+                return HttpResponse("Se registró con éxito el taller")
+            return HttpResponse("Error al procesar el tallers")
+        except Profesor.DoesNotExist:
+            return HttpResponse("Ocurrió un error al momento de registrar el taller")
+    except KeyError:
+        return redirect('/')
+
+def elimina_educon(request):
+    try:
+        usu = request.session["codigo"]
+        evidencia = request.POST["evidencia"]
+        try:
+            q = Taller_Educacion.objects.get(id_tae=evidencia)
+            archivo = q.evidencia_tae
+            q.delete()
+            file_path = settings.BASE_DIR +"/media/" +archivo
+            #print(file_path)
+            if os.path.isfile(file_path):
+                os.remove(file_path)
+            return HttpResponse("Se eliminó con éxito el taller")
+        except Curso.DoesNotExist:
+            return HttpResponse("Ocurrió un error al momento de eliminar el taller")
+    except KeyError:
+        return redirect('/')
+
+def eduabi(request):
+    try:
+        usu = request.session["codigo"]
+        year = request.POST["year"]
+        try:
+            profs = Profesor.objects.order_by('appat')
+            lsttalleres = Taller_EduAbierta.objects.filter(year_tea = year, profesor_tea=usu)
+            return render(request, 'ptc/educacion_abierta.html', {'profs':profs, 'talleres':lsttalleres})
+        except Profesor.DoesNotExist:
+            return render(request, 'ptc/educacion_abierta.html')
+    except KeyError:
+        return redirect('/')
+
+def nuevo_eduabi(request):
+    try:
+        usu = request.session["codigo"]
+        year = request.POST["year"]
+        try:
+            if request.FILES["fileTTallerEA"]:
+                taller = request.POST["nomTTallerEA"]
+                horas = request.POST["horasTTallerEA"]
+                participantes = request.POST["listaprof"]
+                status = request.POST["slcTEstatusEA"]
+                myfile = request.FILES['fileTTallerEA']
+                fs = FileSystemStorage()
+                url = "eduabi/"+str(timezone.now())+"_"+year+"_"+"_"+usu+"_"+myfile.name
+                url = url.replace(" ","")
+                url = url.lower()
+                fs.save(url, myfile)
+                profe = Profesor.objects.get(codigo=usu)
+                q = Taller_EduAbierta(taller_tea = taller, horas_tea = horas, profesores_tea = participantes, evidencia_tea=url, year_tea=year, profesor_tea = profe, status_tea = status)
+                q.save()
+                return HttpResponse("Se registró con éxito el taller")
+            return HttpResponse("Error al procesar el tallers")
+        except Profesor.DoesNotExist:
+            return HttpResponse("Ocurrió un error al momento de registrar el taller")
+    except KeyError:
+        return redirect('/')
+
+def elimina_eduabi(request):
+    try:
+        usu = request.session["codigo"]
+        evidencia = request.POST["evidencia"]
+        try:
+            q = Taller_EduAbierta.objects.get(id_tea=evidencia)
+            archivo = q.evidencia_tea
+            q.delete()
+            file_path = settings.BASE_DIR +"/media/" +archivo
+            #print(file_path)
+            if os.path.isfile(file_path):
+                os.remove(file_path)
+            return HttpResponse("Se eliminó con éxito el taller")
+        except Curso.DoesNotExist:
+            return HttpResponse("Ocurrió un error al momento de eliminar el taller")
     except KeyError:
         return redirect('/')

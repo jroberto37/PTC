@@ -1,0 +1,65 @@
+<div>
+    <form>
+        <div class="border border-secondary border-top-0 border-left-0 border-right-0 col-md-10" style="margin: 25px auto;">     
+            <h5>Elaboración de Material Didáctico utilizado en la Práctica Docente.</h5>
+          
+        </div>
+                    
+
+        <div class="form-row">
+            <div class="form-group col-md-4">
+              <label for="inputAva" class="col-form-label">Selecione Tipo de Trabajo</label>
+                <select class="form-control"id="mateDida">
+                    <option selected>Seleccione</option>
+                    <option value="Apuntes de los cursos curriculares">Apuntes de los cursos curriculares</option>
+                    <option value="Compilación o colección">Compilación o colección</option>
+                    <option value="Cuaderno de trabajo">Cuaderno de trabajo</option>
+                    <option value="Antología o selección">Antología o selección</option>
+                    <option value="Digesto">Digesto</option>
+                    <option value="Manual de prácticas o de laboratorio">Manual de prácticas o de laboratorio</option>
+                    <option value="Guía académica para actividades fuera del aula que apoyen los cursos">Guía académica para actividades fuera del aula que apoyen los cursos</option>
+                    <option value="Libros de texto">Libros de texto</option>
+                    <option value="Material audiovisual: audiocassettes">Material audiovisual: audiocassettes</option>
+                    <option value="Material audiovisual: dioramas/diaporamas">Material audiovisual: dioramas/diaporamas</option>
+                    <option value="Material audiovisual: video">Material audiovisual: video</option>
+                    <option value="Material audiovisual: cine">Material audiovisual: cine</option>
+                    <option value="Material audiovisual: diapositivas y cuerpos opacos">Material audiovisual: diapositivas y cuerpos opacos</option>
+                    <option value="Material audiovisual: rotafolio y otros">Material audiovisual: rotafolio y otros</option>
+                    <option value="Equipos educativos: de laboratorio, deportivos, modelos tridimensionales y otros">Equipos educativos: de laboratorio, deportivos, modelos tridimensionales y otros</option>
+                    <option value="Paquetes de cómputo para la enseñanza (con registro)">Paquetes de cómputo para la enseñanza (con registro)</option>
+                    <option value="Elaboración de insumos universitarios para apoyo de otros académicos">Elaboración de insumos universitarios para apoyo de otros académicos</option>
+                    <option value="Traducciones para apoyo didáctico: De artículos">Traducciones para apoyo didáctico: De artículos</option>
+                    <option value="Traducciones para apoyo didáctico: De libros de texto">Traducciones para apoyo didáctico: De libros de texto</option>
+                    <option value="Traducciones para apoyo didáctico: De material audiovisual">Traducciones para apoyo didáctico: De material audiovisual</option>
+                    <option value="De manual, cuaderno de trabajo, compilación y otros">De manual, cuaderno de trabajo, compilación y otros</option>
+                </select>
+            </div>
+             <div class="form-group col-md-5">
+                <label for="inputNomTaller" class="col-form-label">Título del trabajo.</label>
+                <input type="text" class="form-control" id="TituloTrabajoMateDida" placeholder="">
+            </div>  
+        </div>
+        
+        <div class="form-group" >
+            <label for="fileConstancia">Evidencia.</label>
+            <input type="file" class="form-control-file" id="fileEvidenciaMateDida">
+        </div>
+        <button type="button" class="btn btn-primary" id="BtnMateDida">Guardar</button> 
+        <div class="form-row">
+             <table class="table" id="tablaMateDida">
+              <thead class="thead-default">
+                <tr>
+                    <th>#</th>
+                    <th>Título del trabajo.</th>
+                    <th>Actividad a realizar.</th>
+                    <th>Validación.</th>
+                    <th>Evidencia.</th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>          
+        </div>            
+    </form>
+</div> 
+

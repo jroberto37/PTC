@@ -26,4 +26,20 @@ function ini(){
         });
     });
 
+    $("#menSalir").click(function (){
+        $.ajax({
+            url:"salir",
+            method:"get"
+        }).done(function (res){
+            if(res == 'ok_session_close'){
+                location.reload();
+            }else if( res == 'err_session_close'){
+                alert("Ocurrion un error al momento de cerrar la sesion");
+            }
+        }).fail(function (res){
+            alert("Ocurrio un error ");
+
+        });
+    });
+
 }
