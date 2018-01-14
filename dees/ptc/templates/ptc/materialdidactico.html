@@ -1,16 +1,13 @@
+{%load static%}
 <div>
-    <form>
-        <div class="border border-secondary border-top-0 border-left-0 border-right-0 col-md-10" style="margin: 25px auto;">     
-            <h5>Elaboración de Material Didáctico utilizado en la Práctica Docente.</h5>
-          
-        </div>
-                    
-
+    <form id="frmMatDid" enctype="multipart/form-data" method="post">
+    {% csrf_token %}
         <div class="form-row">
-            <div class="form-group col-md-4">
-              <label for="inputAva" class="col-form-label">Selecione Tipo de Trabajo</label>
-                <select class="form-control"id="mateDida">
-                    <option selected>Seleccione</option>
+
+          <div class="form-group col-md-12">
+            <label for="slcTTrabajo">Tipo de trabajo</label>
+            <select class="form-control" id="slcTTrabajo" name="slcTTrabajo" required>
+                    <option value="" selected>Seleccione...</option>
                     <option value="Apuntes de los cursos curriculares">Apuntes de los cursos curriculares</option>
                     <option value="Compilación o colección">Compilación o colección</option>
                     <option value="Cuaderno de trabajo">Cuaderno de trabajo</option>
@@ -32,34 +29,55 @@
                     <option value="Traducciones para apoyo didáctico: De libros de texto">Traducciones para apoyo didáctico: De libros de texto</option>
                     <option value="Traducciones para apoyo didáctico: De material audiovisual">Traducciones para apoyo didáctico: De material audiovisual</option>
                     <option value="De manual, cuaderno de trabajo, compilación y otros">De manual, cuaderno de trabajo, compilación y otros</option>
-                </select>
-            </div>
-             <div class="form-group col-md-5">
-                <label for="inputNomTaller" class="col-form-label">Título del trabajo.</label>
-                <input type="text" class="form-control" id="TituloTrabajoMateDida" placeholder="">
-            </div>  
+            </select>
+          </div>
         </div>
-        
-        <div class="form-group" >
-            <label for="fileConstancia">Evidencia.</label>
-            <input type="file" class="form-control-file" id="fileEvidenciaMateDida">
-        </div>
-        <button type="button" class="btn btn-primary" id="BtnMateDida">Guardar</button> 
+
         <div class="form-row">
-             <table class="table" id="tablaMateDida">
+            <div class="form-group col-md-12">
+                <label for="matTitulo" class="col-form-label">Titulo del trabajo</label>
+                <input type="text" class="form-control" name="matTitulo" id="matTitulo" placeholder="" required>
+            </div>
+
+        </div>
+
+        <div class="form-row">
+            <div class="form-group text-left" >
+                <label for="fileMatDid">Evidencia </label>
+                <label class="custom-file">
+                  <input type="file" id="fileMatDid" name="fileMatDid" class="custom-file-input" required>
+                  <span class="custom-file-control"></span>
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-outline-primary" data-toggle="modal">Guardar</button>
+        </div>
+        <div class="form-row" style="overflow:auto;">
+             <table class="table" id="tablaMatDidactico">
               <thead class="thead-default">
                 <tr>
                     <th>#</th>
-                    <th>Título del trabajo.</th>
-                    <th>Actividad a realizar.</th>
-                    <th>Validación.</th>
-                    <th>Evidencia.</th>
+                    <th>Tipo de trabajo</th>
+                    <th>Títutlo</th>
+                    <th>Evidencia</th>
+                    <th>Acción</th>
                 </tr>
               </thead>
               <tbody>
+              {% for material in materiales%}
+                <tr>
+                    <th>{{material.id_mad}}</th>
+                    <td>{{material.tipo_mad}}</td>
+                    <td>{{material.titulo_mad}}</td>
+                    <td><a href="../media/{{material.evidencia_mad}}" target="_blank">
+                        <img src="{%static 'ptc/img/open-iconic-master/png/document-3x.png'%}" title="{{material.titulo_mad}}" class="btnDel">
+                    </a></td>
+                    <td><img src="{%static 'ptc/img/open-iconic-master/png/trash-3x.png'%}" evid="{{material.id_mad}}" class="delEvidMatDid btnDel" title="Eliminar material didáctico"></td>
+                </tr>
+              {%endfor%}
               </tbody>
-            </table>          
-        </div>            
+            </table>
+        </div>
     </form>
-</div> 
-
+</div>

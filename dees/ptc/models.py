@@ -118,3 +118,28 @@ class Taller_EduAbierta(models.Model):
     @property
     def __str__(self):
         return self.taller_tea
+
+class Material_Didactico(models.Model):
+    id_mad = models.AutoField(primary_key=True)
+    tipo_mad = models.CharField(max_length=255)
+    titulo_mad = models.CharField(max_length=255)
+    evidencia_mad = models.CharField(max_length=500)
+    year_mad = models.IntegerField()
+    profesor_mad = models.ForeignKey(Profesor, on_delete=models.CASCADE)
+
+    @property
+    def __str__(self):
+        return self.titulo_mad
+
+class Proceso_Titulacion(models.Model):
+    id_prt = models.AutoField(primary_key=True)
+    tipo_prt = models.CharField(max_length=255)
+    nivel_prt = models.CharField(max_length=255)
+    titulo_prt = models.CharField(max_length=255)
+    evidencia_prt = models.CharField(max_length=500)
+    year_prt = models.IntegerField()
+    profesor_prt = models.ForeignKey(Profesor, on_delete=models.CASCADE)
+
+    @property
+    def __str__(self):
+        return self.titulo_prt

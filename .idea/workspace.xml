@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a17d04f3-2983-4564-b632-2485bbb6b79c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dees/ptc/templates/ptc/participacion_titulacion.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dees/ptc/models.py" afterPath="$PROJECT_DIR$/dees/ptc/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dees/ptc/static/ptc/js/page/docencia.js" afterPath="$PROJECT_DIR$/dees/ptc/static/ptc/js/page/docencia.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dees/ptc/templates/ptc/materialdidactico.html" afterPath="$PROJECT_DIR$/dees/ptc/templates/ptc/materialdidactico.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dees/ptc/urls.py" afterPath="$PROJECT_DIR$/dees/ptc/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dees/ptc/views.py" afterPath="$PROJECT_DIR$/dees/ptc/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,64 +18,82 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dees/ptc/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4029">
-              <caret line="251" column="83" lean-forward="false" selection-start-line="251" selection-start-column="83" selection-end-line="251" selection-end-column="83" />
-              <folding>
-                <element signature="e#24#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dees/ptc/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="18" column="60" lean-forward="false" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dees/ptc/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="66" column="26" lean-forward="false" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
-              <folding>
-                <element signature="e#24#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="talleres.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/talleres.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="docencia.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dees/ptc/static/ptc/js/page/docencia.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2890">
-              <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/dees/ptc/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="260">
+                  <caret line="377" column="8" lean-forward="true" selection-start-line="377" selection-start-column="8" selection-end-line="377" selection-end-column="8" />
+                  <folding>
+                    <element signature="e#24#63#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/dees/ptc/urls.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="608">
+                  <caret line="32" column="69" lean-forward="false" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
+                  <folding>
+                    <element signature="e#0#32#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="docencia.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/dees/ptc/static/ptc/js/page/docencia.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="299">
+                  <caret line="410" column="0" lean-forward="true" selection-start-line="410" selection-start-column="0" selection-end-line="410" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="participacion_titulacion.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/participacion_titulacion.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="228">
+                  <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="materialdidactico.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/materialdidactico.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="38">
+                  <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/dees/ptc/models.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="118" column="22" lean-forward="false" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#24#63#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,6 +108,7 @@
       <find>session</find>
       <find>criterios</find>
       <find>&lt;form</find>
+      <find>mat</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,18 +130,21 @@
         <option value="$PROJECT_DIR$/dees/dees/urls.py" />
         <option value="$PROJECT_DIR$/dees/ptc/templates/ptc/docencia.html" />
         <option value="$PROJECT_DIR$/dees/ptc/templates/ptc/cursos.html" />
-        <option value="$PROJECT_DIR$/dees/ptc/models.py" />
         <option value="$PROJECT_DIR$/dees/ptc/templates/ptc/talleres.html" />
-        <option value="$PROJECT_DIR$/dees/ptc/static/ptc/js/page/docencia.js" />
-        <option value="$PROJECT_DIR$/dees/ptc/views.py" />
+        <option value="$PROJECT_DIR$/dees/ptc/templates/ptc/materialdidactico.html" />
         <option value="$PROJECT_DIR$/dees/ptc/urls.py" />
+        <option value="$PROJECT_DIR$/dees/ptc/models.py" />
+        <option value="$PROJECT_DIR$/dees/ptc/templates/ptc/participacion_titulacion.html" />
+        <option value="$PROJECT_DIR$/dees/ptc/views.py" />
+        <option value="$PROJECT_DIR$/dees/ptc/static/ptc/js/page/docencia.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="36" />
-    <option name="width" value="1024" />
-    <option name="height" value="692" />
+    <option name="x" value="701" />
+    <option name="y" value="117" />
+    <option name="width" value="1172" />
+    <option name="height" value="1046" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -155,7 +183,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -179,13 +206,6 @@
               <item name="PTC" type="b2602c69:ProjectViewProjectNode" />
               <item name="PTC" type="462c0819:PsiDirectoryNode" />
               <item name="dees" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="talleres" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PTC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PTC" type="462c0819:PsiDirectoryNode" />
-              <item name="dees" type="462c0819:PsiDirectoryNode" />
               <item name="ptc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -194,6 +214,33 @@
               <item name="dees" type="462c0819:PsiDirectoryNode" />
               <item name="ptc" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PTC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PTC" type="462c0819:PsiDirectoryNode" />
+              <item name="dees" type="462c0819:PsiDirectoryNode" />
+              <item name="ptc" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="ptc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PTC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PTC" type="462c0819:PsiDirectoryNode" />
+              <item name="dees" type="462c0819:PsiDirectoryNode" />
+              <item name="ptc" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="ptc" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PTC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PTC" type="462c0819:PsiDirectoryNode" />
+              <item name="dees" type="462c0819:PsiDirectoryNode" />
+              <item name="ptc" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="ptc" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PTC" type="b2602c69:ProjectViewProjectNode" />
@@ -214,11 +261,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -258,9 +307,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="732" extended-state="6" />
+    <frame x="-4" y="0" width="1928" height="1054" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2871212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28815368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -294,33 +343,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dees/ptc/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dees/ptc/miclass/validacion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dees/ptc/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="64" lean-forward="false" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/expediente.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -554,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/docencia.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-215">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/cursos.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -568,20 +583,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dees/ptc/models.py">
+    <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/talleres.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="66" column="26" lean-forward="false" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dees/ptc/views.py">
+    <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/educacion_abierta.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4029">
-          <caret line="251" column="83" lean-forward="false" selection-start-line="251" selection-start-column="83" selection-end-line="251" selection-end-column="83" />
+        <state relative-caret-position="289">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/docencia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="45" lean-forward="false" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dees/ptc/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="118" column="22" lean-forward="false" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
@@ -590,26 +617,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dees/ptc/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="60" lean-forward="false" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+        <state relative-caret-position="608">
+          <caret line="32" column="69" lean-forward="false" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dees/ptc/static/ptc/js/page/docencia.js">
+    <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/participacion_titulacion.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2890">
-          <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+        <state relative-caret-position="228">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/talleres.html">
+    <entry file="file://$PROJECT_DIR$/dees/ptc/templates/ptc/materialdidactico.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        <state relative-caret-position="38">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dees/ptc/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="377" column="8" lean-forward="true" selection-start-line="377" selection-start-column="8" selection-end-line="377" selection-end-column="8" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dees/ptc/static/ptc/js/page/docencia.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="410" column="0" lean-forward="true" selection-start-line="410" selection-start-column="0" selection-end-line="410" selection-end-column="0" />
           <folding />
         </state>
       </provider>

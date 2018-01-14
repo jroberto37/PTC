@@ -10,6 +10,8 @@ function iniDocencia(){
             loadTalleres(res[0]);
             loadEduCon(res[0]);
             loadEduAbi(res[0]);
+            loadMatDid(res[0]);
+            loadProTi(res[0]);
         }
     });
 }
@@ -383,6 +385,152 @@ function actEliminarEvidEduAbi(anio){
                     loadEduAbi(anio);
                 }).fail(function (){
                     alert("Ocurrió un error al momento de eliminar el taller");
+                });
+            }
+        });
+    }
+}
+
+/*Métodos de material didáctico*/
+
+function loadMatDid(anio){
+    var info = {
+        year:anio
+    };
+    info[$("#frmPeriodo").find("input:hidden").attr("name")] = $("#frmPeriodo").find("input:hidden").val();
+    $.ajax({
+        url:"matdid/",
+        method:"post",
+        data: info
+    }).done(function(res){
+        $("#lstMaterialDidactico").html(res);
+        actMatDid(anio);
+    });
+
+}
+
+function actMatDid(anio){
+    $("#frmMatDid").on("submit",function (e){
+        e.preventDefault();
+        var dir_archivo = $("#fileMatDid").val();
+        var nombre_archivo = dir_archivo.split("\\");
+
+        if(nombre_archivo[nombre_archivo.length-1].length > 40){
+            alert("El nombre de su documento es demasiado largo contien " + nombre_archivo[nombre_archivo.length-1].length+ " leltas \n" + nombre_archivo[nombre_archivo.length-1] + "\nel máximo permitido es de 40 letras");
+            return;
+        }
+
+        var formData = new FormData(document.getElementById("frmMatDid"));
+        formData.append("year", anio);
+        $.ajax({
+            url:"nuevo_matdid/",
+            type: "post",
+            dataType: "html",
+            data: formData,
+            cache: false,
+            contentType: false,
+            processData: false
+        }).done(function(res){
+            alert(res);
+            loadMatDid(anio);
+        });
+    });
+    actEliminarMatDid(anio);
+}
+
+
+function actEliminarMatDid(anio){
+    var evidencias = $(".delEvidMatDid");
+    for (x=0;x < evidencias.length; x++){
+        $(evidencias[x]).click(function (){
+            var resp = confirm("¿Realmente deseas eliminar el material didáctico?");
+            if (resp){
+                var info = {
+                    evidencia:$(this).attr("evid")
+                };
+                info[$("#frmMatDid").find("input:hidden").attr("name")] = $("#frmMatDid").find("input:hidden").val();
+                $.ajax({
+                    url:"elimina_matdid/",
+                    method:"post",
+                    data: info
+                }).done(function(res){
+                    alert(res);
+                    loadMatDid(anio);
+                }).fail(function (){
+                    alert("Ocurrió un error al momento de eliminar el taller");
+                });
+            }
+        });
+    }
+}
+
+/*Métodos de participación de procesos de titulación*/
+
+function loadProTi(anio){
+    var info = {
+        year:anio
+    };
+    info[$("#frmPeriodo").find("input:hidden").attr("name")] = $("#frmPeriodo").find("input:hidden").val();
+    $.ajax({
+        url:"proti/",
+        method:"post",
+        data: info
+    }).done(function(res){
+        $("#lstProcesosTittulacion").html(res);
+        actProTi(anio);
+    });
+
+}
+
+function actProTi(anio){
+    $("#frmProcTitu").on("submit",function (e){
+        e.preventDefault();
+        var dir_archivo = $("#fileProTit").val();
+        var nombre_archivo = dir_archivo.split("\\");
+
+        if(nombre_archivo[nombre_archivo.length-1].length > 40){
+            alert("El nombre de su documento es demasiado largo contien " + nombre_archivo[nombre_archivo.length-1].length+ " leltas \n" + nombre_archivo[nombre_archivo.length-1] + "\nel máximo permitido es de 40 letras");
+            return;
+        }
+
+        var formData = new FormData(document.getElementById("frmProcTitu"));
+        formData.append("year", anio);
+        $.ajax({
+            url:"nuevo_proti/",
+            type: "post",
+            dataType: "html",
+            data: formData,
+            cache: false,
+            contentType: false,
+            processData: false
+        }).done(function(res){
+            alert(res);
+            loadProTi(anio);
+        });
+    });
+    actEliminarProTi(anio);
+}
+
+
+function actEliminarProTi(anio){
+    var evidencias = $(".delProcesoTit");
+    for (x=0;x < evidencias.length; x++){
+        $(evidencias[x]).click(function (){
+            var resp = confirm("¿Realmente deseas eliminar su participación?");
+            if (resp){
+                var info = {
+                    evidencia:$(this).attr("evid")
+                };
+                info[$("#frmProcTitu").find("input:hidden").attr("name")] = $("#frmProcTitu").find("input:hidden").val();
+                $.ajax({
+                    url:"elimina_proti/",
+                    method:"post",
+                    data: info
+                }).done(function(res){
+                    alert(res);
+                    loadProTi(anio);
+                }).fail(function (){
+                    alert("Ocurrió un error al momento de eliminar su participación");
                 });
             }
         });

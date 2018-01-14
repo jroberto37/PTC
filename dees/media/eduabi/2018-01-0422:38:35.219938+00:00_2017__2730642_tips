@@ -1,0 +1,5 @@
+Vincular proyecto con git
+git remote add origin https://github.com/jroberto37/PTC.git
+
+Subir avances a git
+git push -u origin master

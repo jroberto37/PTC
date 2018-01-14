@@ -391,3 +391,112 @@ def elimina_eduabi(request):
             return HttpResponse("Ocurrió un error al momento de eliminar el taller")
     except KeyError:
         return redirect('/')
+
+def matdid(request):
+    try:
+        usu = request.session["codigo"]
+        year = request.POST["year"]
+        try:
+            lstmateriales = Material_Didactico.objects.filter(year_mad = year, profesor_mad=usu)
+            return render(request, 'ptc/materialdidactico.html', {'materiales':lstmateriales})
+        except Profesor.DoesNotExist:
+            return render(request, 'ptc/materialdidactico.html')
+    except KeyError:
+        return redirect('/')
+
+def nuevo_matdid(request):
+    try:
+        usu = request.session["codigo"]
+        year = request.POST["year"]
+        try:
+            if request.FILES["fileMatDid"]:
+                tipo = request.POST["slcTTrabajo"]
+                titulo = request.POST["matTitulo"]
+                myfile = request.FILES['fileMatDid']
+                fs = FileSystemStorage()
+                url = "matdid/"+str(timezone.now())+"_"+year+"_"+"_"+usu+"_"+myfile.name
+                url = url.replace(" ","")
+                url = url.lower()
+                fs.save(url, myfile)
+                profe = Profesor.objects.get(codigo=usu)
+                q = Material_Didactico(tipo_mad = tipo, titulo_mad = titulo, evidencia_mad=url, year_mad=year, profesor_mad = profe)
+                q.save()
+                return HttpResponse("Se registró con éxito el material didáctico")
+            return HttpResponse("Error al procesar el material didáctico")
+        except Profesor.DoesNotExist:
+            return HttpResponse("Ocurrió un error al momento de registrar el material didáctico")
+    except KeyError:
+        return redirect('/')
+
+def elimina_matdid(request):
+    try:
+        usu = request.session["codigo"]
+        evidencia = request.POST["evidencia"]
+        try:
+            q = Material_Didactico.objects.get(id_mad=evidencia)
+            archivo = q.evidencia_mad
+            q.delete()
+            file_path = settings.BASE_DIR +"/media/" +archivo
+            #print(file_path)
+            if os.path.isfile(file_path):
+                os.remove(file_path)
+            return HttpResponse("Se eliminó con éxito el material didáctico")
+        except Curso.DoesNotExist:
+            return HttpResponse("Ocurrió un error al momento de eliminar el material didáctico")
+    except KeyError:
+        return redirect('/')
+
+def proti(request):
+    try:
+        usu = request.session["codigo"]
+        year = request.POST["year"]
+        try:
+            lstprocesos = Proceso_Titulacion.objects.filter(year_prt = year, profesor_prt=usu)
+            return render(request, 'ptc/participacion_titulacion.html', {'procesos':lstprocesos})
+        except Profesor.DoesNotExist:
+            return render(request, 'ptc/participacion_titulacion.html')
+    except KeyError:
+        return redirect('/')
+
+def nuevo_proti(request):
+    try:
+        usu = request.session["codigo"]
+        year = request.POST["year"]
+        try:
+            if request.FILES["fileProTit"]:
+                tipo = request.POST["slcTPParticipacion"]
+                nivel = request.POST["slcPTNivel"]
+                titulo = request.POST["proceTitulo"]
+                myfile = request.FILES['fileProTit']
+                fs = FileSystemStorage()
+                url = "proctit/"+str(timezone.now())+"_"+year+"_"+"_"+usu+"_"+myfile.name
+                url = url.replace(" ","")
+                url = url.lower()
+                fs.save(url, myfile)
+                profe = Profesor.objects.get(codigo=usu)
+                q = Proceso_Titulacion(tipo_prt = tipo, nivel_prt = nivel, titulo_prt = titulo, evidencia_prt=url, year_prt=year, profesor_prt = profe)
+                q.save()
+                return HttpResponse("Se registró con éxito su participación")
+            return HttpResponse("Error al procesar su participación")
+        except Profesor.DoesNotExist:
+            return HttpResponse("Ocurrió un error al momento de registrar su participación")
+    except KeyError:
+        return redirect('/')
+
+def elimina_proti(request):
+    try:
+        usu = request.session["codigo"]
+        evidencia = request.POST["evidencia"]
+        try:
+            q = Proceso_Titulacion.objects.get(id_prt=evidencia)
+            archivo = q.evidencia_prt
+            q.delete()
+            file_path = settings.BASE_DIR +"/media/" +archivo
+            #print(file_path)
+            if os.path.isfile(file_path):
+                os.remove(file_path)
+            return HttpResponse("Se eliminó con éxito su participación")
+        except Curso.DoesNotExist:
+            return HttpResponse("Ocurrió un error al momento de eliminar su participación")
+    except KeyError:
+        return redirect('/')

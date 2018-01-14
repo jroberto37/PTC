@@ -1,0 +1,79 @@
+{%load static%}
+<div>
+    <form id="frmProcTitu" enctype="multipart/form-data" method="post">
+    {% csrf_token %}
+        <div class="form-row">
+
+          <div class="form-group col-md-6">
+            <label for="slcTPParticipacion">Tipo de participación</label>
+            <select class="form-control" id="slcTPParticipacion" name="slcTPParticipacion" required>
+                <option value="" selected>Seleccione...</option>
+                <option value="Dirección">Dirección</option>
+                <option value="Asesoria">Asesoria</option>
+                <option value="Sinodal en examen profesional">Sinodal en examen profesional</option>
+                <option value="Sinodal en examen de tesis">Sinodal en examen de tesis</option>
+            </select>
+          </div>
+
+          <div class="form-group col-md-6">
+            <label for="slcPTNivel">Nivel</label>
+            <select class="form-control" id="slcPTNivel" name="slcPTNivel" required>
+                <option value="" selected>Seleccione...</option>
+                <option value="Técnico">Técnico</option>
+                <option value="Licenciatura">Licenciatura</option>
+                <option value="Maestría">Maestría</option>
+                <option value="Doctorado">Doctorado</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-12">
+                <label for="proceTitulo" class="col-form-label">Titulo del trabajo</label>
+                <input type="text" class="form-control" name="proceTitulo" id="proceTitulo" placeholder="" required>
+            </div>
+
+        </div>
+
+        <div class="form-row">
+            <div class="form-group text-left" >
+                <label for="fileProTit">Evidencia </label>
+                <label class="custom-file">
+                  <input type="file" id="fileProTit" name="fileProTit" class="custom-file-input" required>
+                  <span class="custom-file-control"></span>
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-outline-primary" data-toggle="modal">Guardar</button>
+        </div>
+        <div class="form-row" style="overflow:auto;">
+             <table class="table" id="tablaProcTitulacion">
+              <thead class="thead-default">
+                <tr>
+                    <th>#</th>
+                    <th>Tipo de trabajo</th>
+                    <th>Nivel</th>
+                    <th>Títutlo del trabajo</th>
+                    <th>Evidencia</th>
+                    <th>Acción</th>
+                </tr>
+              </thead>
+              <tbody>
+              {% for proceso in procesos%}
+                <tr>
+                    <th>{{proceso.id_prt}}</th>
+                    <td>{{proceso.tipo_prt}}</td>
+                    <td>{{proceso.nivel_prt}}</td>
+                    <td>{{proceso.titulo_prt}}</td>
+                    <td><a href="../media/{{proceso.evidencia_prt}}" target="_blank">
+                        <img src="{%static 'ptc/img/open-iconic-master/png/document-3x.png'%}" title="{{proceso.titulo_prt}}" class="btnDel">
+                    </a></td>
+                    <td><img src="{%static 'ptc/img/open-iconic-master/png/trash-3x.png'%}" evid="{{proceso.id_prt}}" class="delProcesoTit btnDel" title="Eliminar participación"></td>
+                </tr>
+              {%endfor%}
+              </tbody>
+            </table>
+        </div>
+    </form>
+</div>
