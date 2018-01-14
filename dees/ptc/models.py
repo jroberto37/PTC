@@ -143,3 +143,23 @@ class Proceso_Titulacion(models.Model):
     @property
     def __str__(self):
         return self.titulo_prt
+
+class Proyecto_Investigacion(models.Model):
+    id_pri = models.AutoField(primary_key=True)
+    financiamiento_pri = models.CharField(max_length=255)
+    participacion_pri = models.CharField(max_length=255)
+    titulo_inv_pri = models.CharField(max_length=255)
+    responsable_pri = models.CharField(max_length=255)
+    profesores_pri = models.CharField(max_length=255)
+    producto_pri = models.CharField(max_length=255)
+    subproducto_pri = models.CharField(max_length=255)
+    titulo_prod_pri = models.CharField(max_length=255)
+    status_pri = models.CharField(max_length=255)
+    comite_pri = models.CharField(max_length=255)
+    evidencia_pri = models.CharField(max_length=500)
+    year_pri = models.IntegerField()
+    profesor_pri = models.ForeignKey(Profesor, on_delete=models.CASCADE)
+
+    @property
+    def __str__(self):
+        return self.titulo_inv_pri

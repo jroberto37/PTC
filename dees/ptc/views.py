@@ -57,6 +57,7 @@ def salir(request):
     except KeyError:
         return HttpResponse("err_session_close")
 
+"""Inicia la parte de expediente"""
 
 def expediente(request):
     try:
@@ -93,6 +94,12 @@ def upd_expediente(request):
     except KeyError:
         return redirect('/')
 
+""" Termina la parte de expediente"""
+
+
+"""Inicia la parte de docencia"""
+
+
 def docencia(request):
     try:
         usu = request.session["codigo"]
@@ -108,6 +115,7 @@ def docencia(request):
             return render(request, 'ptc/docencia.html')
     except KeyError:
         return redirect('/')
+
 
 def materias(request):
     try:
@@ -498,5 +506,90 @@ def elimina_proti(request):
             return HttpResponse("Se eliminó con éxito su participación")
         except Curso.DoesNotExist:
             return HttpResponse("Ocurrió un error al momento de eliminar su participación")
+    except KeyError:
+        return redirect('/')
+
+"""Termina la parte de docencia"""
+
+
+"""Inicia la parte de investigación"""
+
+def investigacion(request):
+    try:
+        usu = request.session["codigo"]
+        try:
+            #info = Profesor.objects.get(codigo=usu)
+            #plazas = Plaza.objects.all()
+            years = range(2017,2030)
+            periodo = []
+            for y in years:
+                periodo.append(str(y) + " - " + str(y+1))
+            return render(request, 'ptc/investigacion.html',{'periodo':periodo})
+        except Profesor.DoesNotExist:
+            return render(request, 'ptc/investigacion.html')
+    except KeyError:
+        return redirect('/')
+
+
+def proinv(request):
+    try:
+        usu = request.session["codigo"]
+        year = request.POST["year"]
+        try:
+            profs = Profesor.objects.order_by('appat')
+            lstproyectos = Proyecto_Investigacion.objects.filter(year_pri = year, profesor_pri=usu)
+            return render(request, 'ptc/proyecto_investigacion.html', {'profs':profs,'proyectos':lstproyectos})
+        except Profesor.DoesNotExist:
+            return render(request, 'ptc/proyecto_investigacion.html')
+    except KeyError:
+        return redirect('/')
+
+def nuevo_proinv(request):
+    try:
+        usu = request.session["codigo"]
+        year = request.POST["year"]
+        try:
+            if request.FILES["fileProyInv"]:
+                financiamiento = request.POST["slcTProFina"]
+                participacion = request.POST["slcTProParti"]
+                tituloinv = request.POST["proyTitu"]
+                responsable = request.POST["proyRespon"]
+                profesores = request.POST["slcTProfPro"]
+                producto = request.POST["slcTProPObt"]
+                subproducto = request.POST["slcTProPSub"]
+                tituloprod = request.POST["proyTituProd"]
+                status = request.POST["slcTEstatusPro"]
+                comite = request.POST["slcProyCont"]
+                myfile = request.FILES['fileProyInv']
+                fs = FileSystemStorage()
+                url = "proyinv/"+str(timezone.now())+"_"+year+"_"+"_"+usu+"_"+myfile.name
+                url = url.replace(" ","")
+                url = url.lower()
+                fs.save(url, myfile)
+                profe = Profesor.objects.get(codigo=usu)
+                q = Proyecto_Investigacion(financiamiento_pri=financiamiento,participacion_pri=participacion,titulo_inv_pri=tituloinv,responsable_pri=responsable,profesores_pri=profesores,producto_pri=producto,subproducto_pri=subproducto,titulo_prod_pri=tituloprod,status_pri=status,comite_pri=comite,evidencia_pri=url, year_pri=year, profesor_pri = profe)
+                q.save()
+                return HttpResponse("Se registró con éxito su proyecto")
+            return HttpResponse("Error al procesar su proyecto")
+        except Profesor.DoesNotExist:
+            return HttpResponse("Ocurrió un error al momento de registrar su proyecto")
+    except KeyError:
+        return redirect('/')
+
+def elimina_proinv(request):
+    try:
+        usu = request.session["codigo"]
+        evidencia = request.POST["evidencia"]
+        try:
+            q = Proyecto_Investigacion.objects.get(id_pri=evidencia)
+            archivo = q.evidencia_pri
+            q.delete()
+            file_path = settings.BASE_DIR +"/media/" +archivo
+            #print(file_path)
+            if os.path.isfile(file_path):
+                os.remove(file_path)
+            return HttpResponse("Se eliminó con éxito su proyecto")
+        except Proyecto_Investigacion.DoesNotExist:
+            return HttpResponse("Ocurrió un error al momento de eliminar su proyecto")
     except KeyError:
         return redirect('/')

@@ -1,0 +1,36 @@
+{% load static %}
+<div class="card box-form-ptc">
+          <div class="text-center" style="padding: 15px 0px;">
+            <div class="card-title">
+              <h4>Registro de proyectos de investigación</h4>
+            </div>
+            <hr>
+          </div>
+    <form id="frmPeriodo" enctype="multipart/form-data" method="post">
+        {% csrf_token %}
+
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <label for="inputPeriodo" class="col-form-label">Periodo</label>
+              <select class="form-control" id="slcYear">
+
+                <option value = "-1">Seleccione...</option>
+                {% for x in periodo %}
+                  <option value="{{x}}">{{x}}</option>
+                {% endfor %}
+              </select>
+          </div>
+        </div>
+    </form>
+          <div class="text-center sombra" style="padding-bottom: 15px;">
+            <div class="card-title bg-info text-white rounded">
+              <h4>Proyectos de investigación</h4>
+            </div>
+              <div id="lstProyectosInv">
+
+
+              </div>
+          </div>
+
+<script src="{% static 'ptc/js/page/investigacion.js' %}"></script>
+<script>iniInvestigacion();</script>

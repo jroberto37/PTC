@@ -26,6 +26,18 @@ function ini(){
         });
     });
 
+    $("#menProInvestiagacion").click(function (){
+        $.ajax({
+            url:"investigacion",
+            method:"get"
+        }).done(function (res){
+            $("#ICanvas").html(res);
+        }).fail(function (res){
+            alert("Ocurrio un error ");
+            //location.reload();
+        });
+    });
+
     $("#menSalir").click(function (){
         $.ajax({
             url:"salir",

@@ -1,0 +1,167 @@
+{% load static %}
+<div>
+    <form id="frmProInv" enctype="multipart/form-data" method="post">
+    {% csrf_token %}
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="slcTProFina">Financiamiento</label>
+            <select class="form-control" id="slcTProFina" name="slcTProFina" required>
+                <option value="">Seleccione...</option>
+                <option value="Financiados por la institución">Financiados por la institución</option>
+                <option value="Financiados por instituciones externas">Financiados por instituciones externas</option>
+                <option value="Sin financiamiento">Sin financiamiento</option>
+            </select>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="slcTProParti">Tipo de participación</label>
+            <select class="form-control" id="slcTProParti" name="slcTProParti" required>
+                <option value="">Seleccione...</option>
+                <option value="Auxiliar">Auxiliar</option>
+                <option value="Responsable">Responsable</option>
+                <option value="Asesor">Asesor</option>
+            </select>
+          </div>
+        </div>
+
+
+
+        <div class="form-row">
+
+            <div class="form-group col-md-8">
+                <label for="proyTitu" class="col-form-label">Título del proyecto</label>
+                <input type="text" class="form-control" name="proyTitu" id="proyTitu" placeholder="" required>
+
+
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="proyRespon" class="col-form-label">Responsable del proyecto</label>
+                <input type="text" class="form-control" name="proyRespon" id="proyRespon" placeholder="" required>
+            </div>
+
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="slcTProfPro">Profesores participantes</label>
+            <select multiple class="form-control" id="slcTProfPro" name="slcTProfPro" required>
+              {%for prof in profs%}
+                <option value="{{prof.appat}} {{prof.apmat}} {{prof.nombre}}">{{prof.appat}} {{prof.apmat}} {{prof.nombre}}</option>
+              {%endfor%}
+            </select>
+          </div>
+
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="slcTProPObt">Producto obtenido</label>
+            <select class="form-control" id="slcTProPObt" name="slcTProPObt" required>
+                <option value="">Seleccione...</option>
+                <option value="Reporte técnico final (sólo para el responsable)">Reporte técnico final (sólo para el responsable)</option>
+                <option value="Desarrollo de modelos o prototipos innovadores (con registro)">Desarrollo de modelos o prototipos innovadores (con registro)</option>
+                <option value="Desarrollo de modelos computacionales, de apoyo a la investigación (con registro)">Desarrollo de modelos computacionales, de apoyo a la investigación (con registro)</option>
+                <option value="Productos de investigación demandados y financiados por el sector público, privado o social a través de convenio institucional">Productos de investigación demandados y financiados por el sector público, privado o social a través de convenio institucional</option>
+            </select>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="slcTProPSub">Subproducto obtenido</label>
+            <select class="form-control" id="slcTProPSub" name="slcTProPSub" required>
+                <option value="">Seleccione...</option>
+                <option value="Nota de Investigación">Nota de Investigación</option>
+                <option value="Artículo para revista">Artículo para revista</option>
+                <option value="Monografía">Monografía</option>
+                <option value="Libro individual">Libro individual</option>
+                <option value="Libro colectivo">Libro colectivo</option>
+                <option value="En libro científico">En libro científico</option>
+                <option value="Patente">Patente</option>
+                <option value="En trabajos de investigación presentados en eventos especializados">En trabajos de investigación presentados en eventos especializados</option>
+                <option value="Ponente">Ponente</option>
+                <option value="Conferencia magistral">Conferencia magistral</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+
+            <div class="form-group col-md-12">
+                <label for="proyTituProd" class="col-form-label">Título del producto</label>
+                <input type="text" class="form-control" name="proyTituProd" id="proyTituProd" placeholder="" required>
+            </div>
+
+
+
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="slcTEstatusPro">Estatus</label>
+            <select class="form-control" id="slcTEstatusPro" name="slcTEstatusPro" required>
+                <option value="">Seleccione...</option>
+                <option value="Enviado a revisión">Enviado a revisión</option>
+                <option value="Aceptado">Aceptado</option>
+                <option value="Publicado">Publicado</option>
+            </select>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="slcProyCont">Su trabajo conto con</label>
+            <select class="form-control" id="slcProyCont" name="slcProyCont" required>
+                <option value="">Seleccione...</option>
+                <option value="Sin comité editorial">Sin comité editorial</option>
+                <option value="Con comité editorial local">Con comité editorial local</option>
+                <option value="Con comité editorial nacional">Con comité editorial nacional</option>
+                <option value="Con comité editorial internacional">Con comité editorial internacional</option>
+            </select>
+          </div>
+
+        </div>
+        <div class="form-row">
+
+            <div class="form-group text-left" >
+                <label for="fileProyInv">Evidencia </label>
+                <label class="custom-file">
+                  <input type="file" id="fileProyInv" name="fileProyInv" class="custom-file-input" required>
+                  <span class="custom-file-control"></span>
+                </label>
+            </div>
+        </div>
+
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-outline-primary" data-toggle="modal">Guardar</button>
+            </div>
+
+
+        <div class="form-row" style="overflow:auto;">
+             <table class="table" id="tablaDocenciaEA">
+              <thead class="thead-default">
+                <tr>
+                    <th>#</th>
+                    <th>Proyecto</th>
+                    <th>Responsable</th>
+                    <th>Participantes</th>
+                    <th>Producto</th>
+                    <th>Estatus</th>
+                    <th>Evidencia</th>
+                    <th>Acción</th>
+                </tr>
+              </thead>
+              <tbody>
+              {% for proyecto in proyectos%}
+                <tr>
+                    <th>{{proyecto.id_pri}}</th>
+                    <td>{{proyecto.titulo_inv_pri}}</td>
+                    <td>{{proyecto.responsable_pri}}</td>
+                    <td>{{proyecto.profesores_pri}}</td>
+                    <td>{{proyecto.producto_pri}}</td>
+                    <td>{{proyecto.status_pri}}</td>
+                    <td><a href="../media/{{proyecto.evidencia_pri}}" target="_blank">
+                        <img src="{%static 'ptc/img/open-iconic-master/png/document-3x.png'%}" title="{{proyecto.taller_tea}}" class="btnDel">
+                    </a></td>
+                    <td><img src="{%static 'ptc/img/open-iconic-master/png/trash-3x.png'%}" evid="{{proyecto.id_pri}}" class="delProInv btnDel" title="Eliminar proyecto de investigación"></td>
+                </tr>
+              {%endfor%}
+              </tbody>
+            </table>
+        </div>
+    </form>
+</div>
