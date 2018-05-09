@@ -4,7 +4,7 @@ from django.utils import timezone
 import os
 import json
 from django.http import HttpResponse
-from setuptools.command import upload
+#from setuptools.command import upload
 
 from .miclass.validacion import Validacion
 from .models import *
